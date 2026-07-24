@@ -4,7 +4,8 @@
   "description": "Record dialogs via web browser and have them autoaligned and terms extracted",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently --kill-others-on-fail \"npx tsx server.ts\" \"vite\"",
+    "server": "npx tsx server.ts",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest run"
@@ -12,15 +13,23 @@
   "author": "Charlie McVicker",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "lucide-react": "^1.26.0",
+    "multer": "^2.2.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.2.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
+    "concurrently": "^9.2.4",
     "jsdom": "^29.1.1",
+    "ts-node": "^10.9.2",
     "typescript": "^7.0.2",
     "vite": "^8.1.5",
     "vitest": "^4.1.10"

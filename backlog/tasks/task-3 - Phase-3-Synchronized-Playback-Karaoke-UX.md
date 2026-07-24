@@ -1,9 +1,11 @@
 ---
 id: TASK-3
 title: 'Phase 3: Synchronized Playback & Karaoke UX'
-status: To Do
-assignee: []
+status: Done
+assignee:
+  - '@subagent'
 created_date: '2026-07-24 15:29'
+updated_date: '2026-07-24 16:24'
 labels: []
 dependencies: []
 ordinal: 3000
@@ -17,7 +19,13 @@ Implement PlaybackKaraokeModule with real-time timeupdate tracking, line-by-line
 
 ## Acceptance Criteria
 <!-- AC:BEGIN -->
-- [ ] #1 Implement PlaybackKaraokeModule
-- [ ] #2 Add step selector and word-level karaoke text highlighting
-- [ ] #3 Add Praat .TextGrid export download support
+- [x] #1 Implement PlaybackKaraokeModule
+- [x] #2 Add step selector and word-level karaoke text highlighting
+- [x] #3 Add Praat .TextGrid export download support
 <!-- AC:END -->
+
+## Final Summary
+
+<!-- SECTION:FINAL_SUMMARY:BEGIN -->
+Implemented KaraokePlayer component with synchronized playback using requestAnimationFrame, word-level and line-level highlighting, playback speed toggles, and Praat TextGrid download support. Hooked it up to the AudioRecorder view and added corresponding tests.
+<!-- SECTION:FINAL_SUMMARY:END -->

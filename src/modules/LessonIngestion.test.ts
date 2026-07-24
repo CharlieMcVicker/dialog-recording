@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { extractChunkList, ChunkItem } from './LessonIngestion';
-import { LessonRecord, InnerLessonJson } from '../lesson_schema';
+import { InnerLessonJson } from '../lesson_schema';
 
 describe('LessonIngestion', () => {
   it('should extract chunks from InnerLessonJson', () => {

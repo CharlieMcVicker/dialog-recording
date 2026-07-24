@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { extractChunkList, parseLessonJson } from './modules/LessonIngestion';
 import { LessonRecord, InnerLessonJson, ChunkItem } from './modules/LessonIngestion';
 import { Upload, FileText, Check, Copy, AlertCircle, RefreshCw } from 'lucide-react';
+import AudioRecorder from './components/AudioRecorder';
 
 export default function App() {
   const [isDragging, setIsDragging] = useState(false);
@@ -164,6 +165,8 @@ export default function App() {
                 <pre>{JSON.stringify(chunkList, null, 2)}</pre>
               </div>
             </div>
+
+            <AudioRecorder chunkList={chunkList} vocab={lesson ? ('lesson_json' in lesson ? lesson.lesson_json.vocab : lesson.vocab) : null} />
           </div>
         )}
       </main>
