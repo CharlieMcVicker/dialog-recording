@@ -50,6 +50,8 @@ describe('LessonIngestion', () => {
         line_id: 'step-1',
         raw_phonetic: 'osiyo',
         cherokee_syllabary: 'ᎣᏏᏲ',
+        speaker: 'user',
+        side: 'left',
       },
     ];
 

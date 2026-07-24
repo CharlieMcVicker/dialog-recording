@@ -26,6 +26,7 @@ export interface AlignmentManifest {
   audio_source?: string;
   metrics?: any;
   lines?: AlignmentLine[];
+  segments?: any[];
   chunks?: any[];
 }
 
@@ -188,7 +189,7 @@ export default function KaraokePlayer({ audioURL, manifest, textGrid }: KaraokeP
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxHeight: '400px', overflowY: 'auto', paddingRight: '0.5rem' }}>
-          {lines.length > 0 ? lines.map((line, lIdx) => {
+          {lines.length > 0 ? lines.map((line: AlignmentLine, lIdx: number) => {
             const isActiveLine = activeLineIndex === lIdx;
             const activeWordIndex = isActiveLine ? getActiveWordIndex(line.words || [], currentTime) : -1;
             
@@ -206,7 +207,7 @@ export default function KaraokePlayer({ audioURL, manifest, textGrid }: KaraokeP
                 }}
               >
                 <div style={{ fontSize: '1.2rem', marginBottom: '0.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.25rem' }}>
-                  {line.words && line.words.length > 0 ? line.words.map((w, wIdx) => {
+                  {line.words && line.words.length > 0 ? line.words.map((w: AlignmentWord, wIdx: number) => {
                     const isActiveWord = isActiveLine && activeWordIndex === wIdx;
                     return (
                       <span

@@ -8,17 +8,17 @@ import VocabAuditView from './VocabAuditView';
 interface AudioRecorderProps {
   chunkList: ChunkItem[] | null;
   vocab: LanguageItem[] | null;
+  embedded?: boolean;
+  onAlignmentComplete?: (data: { audioURL: string; manifest: any; textGrid?: any }) => void;
 }
 
-export default function AudioRecorder({ chunkList, vocab }: AudioRecorderProps) {
+export default function AudioRecorder({ chunkList, vocab, embedded = false, onAlignmentComplete }: AudioRecorderProps) {
   const [isRecording, setIsRecording] = useState(false);
   const [audioURL, setAudioURL] = useState<string | null>(null);
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [alignStatus, setAlignStatus] = useState<'idle' | 'uploading' | 'aligning' | 'complete' | 'error'>('idle');
   const [alignmentResult, setAlignmentResult] = useState<any>(null);
 
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const audioChunksRef = useRef<Blob[]>([]);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
@@ -229,6 +229,9 @@ export default function AudioRecorder({ chunkList, vocab }: AudioRecorderProps) 
 
       setAlignmentResult(data);
       setAlignStatus('complete');
+      if (onAlignmentComplete && audioURL) {
+        onAlignmentComplete({ audioURL, manifest: data.manifest, textGrid: data.textGrid });
+      }
     } catch (err: any) {
       console.error(err);
       setErrorMessage(err.message || 'Alignment failed');
@@ -236,14 +239,15 @@ export default function AudioRecorder({ chunkList, vocab }: AudioRecorderProps) 
     }
   };
 
-  return (
-    <div className="card" style={{ marginTop: '1.5rem' }}>
-      <div className="card-header">
-        <h3 className="card-title">Audio Capture & Alignment</h3>
-        <Mic size={18} color="var(--accent-cyan)" />
-      </div>
-
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '1rem' }}>
+  const content = (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: embedded ? 0 : '1rem' }}>
+      {/* Subheading when embedded */}
+      {embedded && (
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.25rem' }}>
+          <h4 style={{ margin: 0, fontSize: '1rem', fontWeight: 600, color: 'var(--text-main)' }}>Audio Capture & Alignment Tools</h4>
+          <Mic size={18} color="var(--accent-cyan)" />
+        </div>
+      )}
         {/* Waveform Canvas */}
         <canvas 
           ref={canvasRef} 
@@ -303,7 +307,7 @@ export default function AudioRecorder({ chunkList, vocab }: AudioRecorderProps) 
           </div>
         )}
 
-        {alignStatus === 'complete' && alignmentResult && audioURL && (
+        {alignStatus === 'complete' && alignmentResult && audioURL && !embedded && (
           <>
             <KaraokePlayer 
               audioURL={audioURL} 
@@ -316,7 +320,19 @@ export default function AudioRecorder({ chunkList, vocab }: AudioRecorderProps) 
           </>
         )}
       </div>
+  );
 
+  if (embedded) {
+    return content;
+  }
+
+  return (
+    <div className="card" style={{ marginTop: '1.5rem' }}>
+      <div className="card-header">
+        <h3 className="card-title">Audio Capture & Alignment</h3>
+        <Mic size={18} color="var(--accent-cyan)" />
+      </div>
+      {content}
     </div>
   );
 }

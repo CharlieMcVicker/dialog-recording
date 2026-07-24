@@ -4,6 +4,8 @@ export interface ChunkItem {
   line_id: string;
   raw_phonetic: string;
   cherokee_syllabary: string;
+  speaker?: string;
+  side?: 'left' | 'right';
 }
 
 export function extractChunkList(lesson: LessonRecord | InnerLessonJson): ChunkItem[] {
@@ -15,10 +17,14 @@ export function extractChunkList(lesson: LessonRecord | InnerLessonJson): ChunkI
     if (module.type === 'conversation') {
       const convModule = module as ConversationModule;
       for (const step of convModule.data.steps) {
+        const speaker = step.speaker || 'unknown';
+        const side = speaker.toLowerCase() === 'user' ? 'left' : 'right';
         chunks.push({
           line_id: step.id,
-          raw_phonetic: step.prompt.phonetic,
+          raw_phonetic: step.prompt.phonetic.replace(/\([aeiouv]\)/g, ''),
           cherokee_syllabary: step.prompt.cherokee,
+          speaker,
+          side,
         });
       }
     }
