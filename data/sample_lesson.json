@@ -1,161 +1,210 @@
 {
-  "id": "b4352bc6-0437-402a-bedc-c5cf30ee4112",
-  "title": "How do you say...",
-  "description": "Learn some phrases for asking how to say things in Cherokee.",
+  "id": "1edc2e72-6902-4442-9f21-9260b563bc19",
+  "title": "Pajamas and putting on clothes for bed",
+  "description": "Learn how to talk about PJs and getting changed for bed",
   "lesson_json": {
-    "id": "b4352bc6-0437-402a-bedc-c5cf30ee4112",
+    "id": "1edc2e72-6902-4442-9f21-9260b563bc19",
     "level": 1,
-    "title": "How do you say...",
+    "title": "Pajamas and putting on clothes for bed",
     "vocab": [
       {
-        "id": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+        "id": "413cba7f-cbbe-467b-a485-308bd70dc94a",
         "type": "sentence",
         "origin": "local",
-        "english": "I am hungry",
+        "english": "Where is my shirt?",
         "subtype": null,
-        "cherokee": "ᎠᎩᏲᏏ",
-        "phonetic": "a-gi-yo-si",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᎭᏢ ᎠᏆᎿᏬ?",
+        "phonetic": "ha-tlv a-gwa-hna-wo",
         "includeInLanguageBank": true
       },
       {
-        "id": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
-        "type": "word",
-        "origin": "local",
-        "english": "Cherokee",
-        "subtype": null,
-        "cherokee": "ᏣᎳᎩ",
-        "phonetic": "tsa-la-gi",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
-        "type": "word",
-        "origin": "local",
-        "english": "using",
-        "subtype": null,
-        "cherokee": "ᎬᏗ",
-        "phonetic": "gvh-di",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
-        "type": "word",
-        "origin": "local",
-        "english": "using Cherokee / in Cherokee",
-        "subtype": null,
-        "cherokee": "ᏣᎳᎩ ᎬᏗ",
-        "phonetic": "tsa-la-gi gvh-di",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "e733a0cb-32d4-4431-b39e-66cd508d7451",
-        "type": "word",
-        "origin": "local",
-        "english": "How can one say \"I am hungry?\"",
-        "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
-        "phonetic": "do yv-da \"I am hungry?\"",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
-        "type": "word",
-        "origin": "local",
-        "english": "How can one say \"I am hungry\" in Cherokee?",
-        "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"I am hungry\"  tsa-la-gi gvh-di?",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+        "id": "68d3c421-bb4f-48e0-a406-61110b87d653",
         "type": "sentence",
         "origin": "local",
-        "english": "How do you say \"I am hungry\" in Cherokee?",
+        "english": "Look! Here is your shirt",
         "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
-        "sourceGlobalItemId": null,
+        "cherokee": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+        "phonetic": "ni a-ha-ni tsa-hna-wo",
         "includeInLanguageBank": true
       },
       {
-        "id": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
-        "type": "sentence",
+        "id": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+        "type": "word",
         "origin": "local",
-        "english": "How do you say \"You are hungry\" in Cherokee?",
+        "english": "Your shirt",
         "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᏣᎿᏬ",
+        "phonetic": "tsa-hna-wo",
         "includeInLanguageBank": true
       },
       {
-        "id": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+        "id": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+        "type": "word",
+        "origin": "local",
+        "english": "My shirt",
+        "subtype": null,
+        "cherokee": "ᎠᏆᎿᏬ",
+        "phonetic": "a-gwa-hna-wo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "85f1f4b1-b199-4fcd-9a00-af5bf0868d5b",
         "type": "sentence",
         "origin": "local",
-        "english": "You are hungry",
+        "english": "Where are your pants?",
         "subtype": null,
-        "cherokee": "ᏣᏲᏏ",
-        "phonetic": "tsa-yo-si",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᎭᏢ ᏣᏑᎶ?",
+        "phonetic": "ha-tlv tsa-su-lo?",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "68710e2c-cd62-40c8-8ffb-653a45d21c5c",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Look! Here are my pants",
+        "subtype": null,
+        "cherokee": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+        "phonetic": "ni a-ha-ni-dv a-gwa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e",
+        "type": "word",
+        "origin": "local",
+        "english": "My pants",
+        "subtype": null,
+        "cherokee": "ᎠᏆᏑᎶ",
+        "phonetic": "a-gwa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "abd37813-15c2-4e52-b5ce-c92b38215823",
+        "type": "word",
+        "origin": "local",
+        "english": "Your pants",
+        "subtype": null,
+        "cherokee": "ᏣᏑᎶ",
+        "phonetic": "tsa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "105524fb-a77f-4311-94be-dbd57da7c7a1",
+        "type": "sentence",
+        "origin": "local",
+        "english": "You've got to go to bed now",
+        "subtype": null,
+        "cherokee": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+        "phonetic": "wi-tsa-n(i)-si-n(i)-di no-wu",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "0288265b-875f-4c14-b5be-4a745d2c7ef3",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Put on your sleep shirt",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "81d96702-288a-4d3e-ad56-01943dde6494",
+        "type": "word",
+        "origin": "local",
+        "english": "Your sleep shirt (PJ shirt)",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "053d8eba-f078-43d4-a52e-9af21329189c",
+        "type": "word",
+        "origin": "local",
+        "english": "Your sleep pants (PJ pants)",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "9da7aeda-3e00-407e-9e24-5216eddb5e10",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Okay",
+        "subtype": null,
+        "cherokee": "ᎭᏩ",
+        "phonetic": "ha-wa",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "cdbb3aa9-a2bb-42d0-81bb-b8c43007897c",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Now put on your PJ pants",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu",
         "includeInLanguageBank": true
       }
     ],
     "modules": [
       {
-        "id": "e0387fc9-97a4-42ab-8d51-fb949f4a9d5d",
+        "id": "6e11fa27-706c-4288-af16-42b3c71bce83",
         "data": {
-          "body": "This lesson will focus on teaching you how to ask for language in language. Look at the sample question you will learn how to ask, then use the matching modules to learn the words in the question.",
-          "title": "Lesson focus"
+          "body": "Our Cherokee words to talk about a piece of clothing, like a shirt or pants, normally say who that item belongs to. In this lesson you'll learn how to say different items of clothing, and change them to talk about different people.",
+          "title": "Clothing words"
         },
         "type": "context"
       },
       {
-        "id": "bb63948f-a84b-4f02-bc87-e8744ab1940f",
+        "id": "0a666ed6-1dc4-4595-801e-acccb7758b49",
         "data": {
           "steps": [
             {
-              "id": "88f32118-3abc-4b22-a468-5d3394f07643",
-              "mode": "dialogue",
+              "id": "1b87454e-bf31-41f6-9749-87665ea3d665",
+              "mode": "question",
               "prompt": {
-                "english": "How do you say \"I am hungry\" in Cherokee?",
-                "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-                "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
-              },
-              "speaker": "npc",
-              "answerField": "cherokee",
-              "distractors": [],
-              "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
-              "bankDistractorIds": [],
-              "maskedWordIndicesByField": {
-                "english": [],
-                "cherokee": [],
-                "phonetic": []
-              }
-            },
-            {
-              "id": "ede2d4ad-fa07-4c14-a78c-29fa67a935a0",
-              "mode": "dialogue",
-              "prompt": {
-                "english": "I am hungry",
-                "cherokee": "ᎠᎩᏲᏏ",
-                "phonetic": "a-gi-yo-si"
+                "english": "Where is my shirt?",
+                "cherokee": "ᎭᏢ ᎠᏆᎿᏬ?",
+                "phonetic": "ha-tlv a-gwa-hna-wo"
               },
               "speaker": "user",
               "answerField": "cherokee",
               "distractors": [],
-              "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+              "sentenceBankId": "413cba7f-cbbe-467b-a485-308bd70dc94a",
               "bankDistractorIds": [],
               "maskedWordIndicesByField": {
                 "english": [],
-                "cherokee": [],
-                "phonetic": []
+                "cherokee": [
+                  1
+                ],
+                "phonetic": [
+                  1
+                ]
+              }
+            },
+            {
+              "id": "68bfb871-a807-4aa4-89c5-8fa8daad72d8",
+              "mode": "question",
+              "prompt": {
+                "english": "Look! Here is your shirt",
+                "cherokee": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+                "phonetic": "ni a-ha-ni tsa-hna-wo"
+              },
+              "speaker": "npc",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "68d3c421-bb4f-48e0-a406-61110b87d653",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [
+                  2
+                ],
+                "phonetic": [
+                  2
+                ]
               }
             }
           ],
@@ -173,32 +222,24 @@
         "type": "conversation"
       },
       {
-        "id": "e6047092-21a2-4766-9342-2690f3c55ad0",
+        "id": "c7c5ae4a-2d56-4ba0-b974-8590352b2cd8",
         "data": {
           "items": [
             {
-              "id": "18c139be-7b85-4651-aff5-9bf472a9bbd9",
-              "bankId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
-              "english": "Cherokee",
-              "cherokee": "ᏣᎳᎩ",
-              "phonetic": "tsa-la-gi",
-              "languageItemId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7"
+              "id": "84ef62bd-6dae-4312-b8e4-bc4b759918ac",
+              "bankId": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "b3de339d-5e40-4e05-95a0-27079f3edd0d"
             },
             {
-              "id": "c40ec146-7cae-410e-bc1a-5a5b16aff362",
-              "bankId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
-              "english": "using",
-              "cherokee": "ᎬᏗ",
-              "phonetic": "gvh-di",
-              "languageItemId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15"
-            },
-            {
-              "id": "9832b7a7-e47e-4acd-b585-4eeab61d02e3",
-              "bankId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
-              "english": "using Cherokee / in Cherokee",
-              "cherokee": "ᏣᎳᎩ ᎬᏗ",
-              "phonetic": "tsa-la-gi gvh-di",
-              "languageItemId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be"
+              "id": "c7fa8ca5-a6ca-414c-9ba0-6ae1755f0c65",
+              "bankId": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "21ab2781-f0a7-41ad-a2aa-138833586d9f"
             }
           ],
           "config": {
@@ -206,60 +247,222 @@
               "english"
             ],
             "frontFields": [
-              "cherokee"
+              "cherokee",
+              "phonetic"
             ]
           }
         },
         "type": "match"
       },
       {
-        "id": "2696fb9b-2faa-47a6-aba4-0432b9081f1b",
-        "data": {
-          "items": [
-            {
-              "id": "14f17a9b-ec8d-453b-b11b-2394f24a89a9",
-              "bankId": "e733a0cb-32d4-4431-b39e-66cd508d7451",
-              "english": "How can one say \"I am hungry?\"",
-              "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
-              "phonetic": "do yv-da \"I am hungry?\"",
-              "languageItemId": "e733a0cb-32d4-4431-b39e-66cd508d7451"
-            },
-            {
-              "id": "10ca9384-4825-4160-9103-9d42b3254b80",
-              "bankId": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
-              "english": "How can one say I am hungry\" in Cherokee?",
-              "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-              "phonetic": "do yv-da I am hungry\"  tsa-la-gi gvh-di?",
-              "languageItemId": "f4be219e-91ca-41a8-9520-fb57d6dd494f"
-            }
-          ],
-          "config": {
-            "backFields": [
-              "english"
-            ],
-            "frontFields": [
-              "cherokee"
-            ]
-          }
-        },
-        "type": "match"
-      },
-      {
-        "id": "3cdea012-012c-4139-8007-4ddd13edf5f5",
+        "id": "d8f5a93b-3c7d-4564-9c85-323d92d33471",
         "data": {
           "steps": [
             {
-              "id": "72f680be-73c7-4a70-ab3d-e4a091330f1e",
+              "id": "91c1fd25-8c61-4dac-bcec-b681917ae212",
               "mode": "question",
               "prompt": {
-                "english": "How do you say \"I am hungry\" in Cherokee?",
-                "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-                "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
+                "english": "Where are your pants?",
+                "cherokee": "ᎭᏢ ᏣᏑᎶ?",
+                "phonetic": "ha-tlv tsa-su-lo?"
               },
               "speaker": "npc",
               "answerField": "cherokee",
               "distractors": [],
-              "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+              "sentenceBankId": "85f1f4b1-b199-4fcd-9a00-af5bf0868d5b",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [
+                  1
+                ],
+                "phonetic": [
+                  1
+                ]
+              }
+            },
+            {
+              "id": "0558ba7a-9362-40e9-8ab4-0e68dabc8e8f",
+              "mode": "question",
+              "prompt": {
+                "english": "Look! Here are my pants",
+                "cherokee": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+                "phonetic": "ni a-ha-ni-dv a-gwa-su-lo"
+              },
+              "speaker": "user",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "68710e2c-cd62-40c8-8ffb-653a45d21c5c",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [
+                  2
+                ],
+                "phonetic": [
+                  2
+                ]
+              }
+            }
+          ],
+          "config": {
+            "visibleFields": [
+              "cherokee",
+              "phonetic",
+              "english"
+            ],
+            "showPhoneticWithCherokeeAnswers": true
+          },
+          "globalDistractors": [],
+          "globalBankDistractorIds": []
+        },
+        "type": "conversation"
+      },
+      {
+        "id": "14e6b2b5-39c0-412b-b764-e589da008cce",
+        "data": {
+          "items": [
+            {
+              "id": "ee45d117-ab30-492d-a072-a94816bca7a1",
+              "bankId": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "b3de339d-5e40-4e05-95a0-27079f3edd0d"
+            },
+            {
+              "id": "331ff49c-34b3-4350-9977-b31288f9525f",
+              "bankId": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "21ab2781-f0a7-41ad-a2aa-138833586d9f"
+            },
+            {
+              "id": "93f1c8a6-cd82-4af1-9620-f8e24fb4fd94",
+              "bankId": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e"
+            },
+            {
+              "id": "3c174a24-0b6a-41af-a3fc-af601cdb21b8",
+              "bankId": "abd37813-15c2-4e52-b5ce-c92b38215823",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "abd37813-15c2-4e52-b5ce-c92b38215823"
+            }
+          ],
+          "config": {
+            "backFields": [
+              "english"
+            ],
+            "frontFields": [
+              "cherokee",
+              "phonetic"
+            ]
+          }
+        },
+        "type": "match"
+      },
+      {
+        "id": "6f3948c8-8aa0-491f-bd52-ccc7e12d3907",
+        "data": {
+          "body": "In Cherokee, different communities have different words for things. One one to talk about pajamas is calling them \"sleeping clothes.\"",
+          "title": "Pajamas"
+        },
+        "type": "context"
+      },
+      {
+        "id": "a6b2756e-c32c-4996-af9c-458221aaf78c",
+        "data": {
+          "items": [
+            {
+              "id": "c9ea8e3e-8514-4194-9188-c9f5f3788c58",
+              "bankId": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "b3de339d-5e40-4e05-95a0-27079f3edd0d"
+            },
+            {
+              "id": "c8635723-cb71-411b-9788-030f1a95104f",
+              "bankId": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "21ab2781-f0a7-41ad-a2aa-138833586d9f"
+            },
+            {
+              "id": "aa093f60-9a05-4958-91ca-5c2b1709479b",
+              "bankId": "81d96702-288a-4d3e-ad56-01943dde6494",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "81d96702-288a-4d3e-ad56-01943dde6494"
+            },
+            {
+              "id": "67040052-8753-4920-850e-da0857e68994",
+              "bankId": "053d8eba-f078-43d4-a52e-9af21329189c",
+              "english": "",
+              "cherokee": "",
+              "phonetic": "",
+              "languageItemId": "053d8eba-f078-43d4-a52e-9af21329189c"
+            }
+          ],
+          "config": {
+            "backFields": [
+              "english"
+            ],
+            "frontFields": [
+              "cherokee",
+              "phonetic"
+            ]
+          }
+        },
+        "type": "match"
+      },
+      {
+        "id": "df2b97b9-1af9-4d7e-bd71-173722bf6f5c",
+        "data": {
+          "steps": [
+            {
+              "id": "f62644e5-5987-4f4e-9c19-9d91898855e5",
+              "mode": "question",
+              "prompt": {
+                "english": "You've got to go to bed now",
+                "cherokee": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+                "phonetic": "wi-tsa-n(i)-si-n(i)-di no-wu"
+              },
+              "speaker": "npc",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "105524fb-a77f-4311-94be-dbd57da7c7a1",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [
+                  0
+                ],
+                "phonetic": [
+                  0
+                ]
+              }
+            },
+            {
+              "id": "71022fbb-cb47-44ff-bbf4-e494d94ebd0c",
+              "mode": "question",
+              "prompt": {
+                "english": "Put on your sleep shirt",
+                "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+                "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa"
+              },
+              "speaker": "npc",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "0288265b-875f-4c14-b5be-4a745d2c7ef3",
               "bankDistractorIds": [],
               "maskedWordIndicesByField": {
                 "english": [],
@@ -274,17 +477,17 @@
               }
             },
             {
-              "id": "b152e9df-2dbf-4a22-bdae-4cc9dbaed1e9",
+              "id": "5a0c0e81-d4c4-4048-bb5a-513e8f526e19",
               "mode": "dialogue",
               "prompt": {
-                "english": "I am hungry",
-                "cherokee": "ᎠᎩᏲᏏ",
-                "phonetic": "a-gi-yo-si"
+                "english": "Okay",
+                "cherokee": "ᎭᏩ",
+                "phonetic": "ha-wa"
               },
               "speaker": "user",
               "answerField": "cherokee",
               "distractors": [],
-              "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+              "sentenceBankId": "9da7aeda-3e00-407e-9e24-5216eddb5e10",
               "bankDistractorIds": [],
               "maskedWordIndicesByField": {
                 "english": [],
@@ -293,47 +496,28 @@
               }
             },
             {
-              "id": "50712d58-84e7-4cc7-abaa-6077e58e93c8",
+              "id": "b0872a84-4d07-43bb-8602-42f8d6853ad4",
               "mode": "question",
               "prompt": {
-                "english": "How do you say \"You are hungry\" in Cherokee?",
-                "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
-                "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?"
+                "english": "Now put on your PJ pants",
+                "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+                "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu"
               },
               "speaker": "npc",
               "answerField": "cherokee",
               "distractors": [],
-              "sentenceBankId": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+              "sentenceBankId": "cdbb3aa9-a2bb-42d0-81bb-b8c43007897c",
               "bankDistractorIds": [],
               "maskedWordIndicesByField": {
                 "english": [],
                 "cherokee": [
-                  5,
-                  6
+                  0,
+                  1
                 ],
                 "phonetic": [
-                  5,
-                  6
+                  0,
+                  1
                 ]
-              }
-            },
-            {
-              "id": "aa84b91e-9e7a-459e-96cb-cc12d8e0fdb7",
-              "mode": "dialogue",
-              "prompt": {
-                "english": "You are hungry",
-                "cherokee": "ᏣᏲᏏ",
-                "phonetic": "tsa-yo-si"
-              },
-              "speaker": "user",
-              "answerField": "cherokee",
-              "distractors": [],
-              "sentenceBankId": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
-              "bankDistractorIds": [],
-              "maskedWordIndicesByField": {
-                "english": [],
-                "cherokee": [],
-                "phonetic": []
               }
             }
           ],
@@ -351,194 +535,232 @@
         "type": "conversation"
       }
     ],
-    "description": "Learn some phrases for asking how to say things in Cherokee.",
+    "description": "Learn how to talk about PJs and getting changed for bed",
     "languageItems": [
       {
-        "id": "87c1da23-f3ad-4c0e-bd50-6c3eeaf8b4fb",
+        "id": "413cba7f-cbbe-467b-a485-308bd70dc94a",
         "type": "sentence",
         "origin": "local",
-        "english": "How do you say \"I am hungry\" in Cherokee?",
+        "english": "Where is my shirt?",
         "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": false
+        "cherokee": "ᎭᏢ ᎠᏆᎿᏬ?",
+        "phonetic": "ha-tlv a-gwa-hna-wo",
+        "includeInLanguageBank": true
       },
       {
-        "id": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+        "id": "68d3c421-bb4f-48e0-a406-61110b87d653",
         "type": "sentence",
         "origin": "local",
-        "english": "I am hungry",
+        "english": "Look! Here is your shirt",
         "subtype": null,
-        "cherokee": "ᎠᎩᏲᏏ",
-        "phonetic": "a-gi-yo-si",
-        "sourceGlobalItemId": null,
+        "cherokee": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+        "phonetic": "ni a-ha-ni tsa-hna-wo",
         "includeInLanguageBank": true
       },
       {
-        "id": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+        "id": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
         "type": "word",
         "origin": "local",
-        "english": "Cherokee",
+        "english": "Your shirt",
         "subtype": null,
-        "cherokee": "ᏣᎳᎩ",
-        "phonetic": "tsa-la-gi",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᏣᎿᏬ",
+        "phonetic": "tsa-hna-wo",
         "includeInLanguageBank": true
       },
       {
-        "id": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+        "id": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
         "type": "word",
         "origin": "local",
-        "english": "using",
+        "english": "My shirt",
         "subtype": null,
-        "cherokee": "ᎬᏗ",
-        "phonetic": "gvh-di",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᎠᏆᎿᏬ",
+        "phonetic": "a-gwa-hna-wo",
         "includeInLanguageBank": true
       },
       {
-        "id": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
-        "type": "word",
-        "origin": "local",
-        "english": "using Cherokee / in Cherokee",
-        "subtype": null,
-        "cherokee": "ᏣᎳᎩ ᎬᏗ",
-        "phonetic": "tsa-la-gi gvh-di",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "e733a0cb-32d4-4431-b39e-66cd508d7451",
-        "type": "word",
-        "origin": "local",
-        "english": "How can one say \"I am hungry?\"",
-        "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
-        "phonetic": "do yv-da \"I am hungry?\"",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
-        "type": "word",
-        "origin": "local",
-        "english": "How can one say \"I am hungry\" in Cherokee?",
-        "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"I am hungry\"  tsa-la-gi gvh-di?",
-        "sourceGlobalItemId": null,
-        "includeInLanguageBank": true
-      },
-      {
-        "id": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+        "id": "85f1f4b1-b199-4fcd-9a00-af5bf0868d5b",
         "type": "sentence",
         "origin": "local",
-        "english": "How do you say \"I am hungry\" in Cherokee?",
+        "english": "Where are your pants?",
         "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᎭᏢ ᏣᏑᎶ?",
+        "phonetic": "ha-tlv tsa-su-lo?",
         "includeInLanguageBank": true
       },
       {
-        "id": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+        "id": "68710e2c-cd62-40c8-8ffb-653a45d21c5c",
         "type": "sentence",
         "origin": "local",
-        "english": "How do you say \"You are hungry\" in Cherokee?",
+        "english": "Look! Here are my pants",
         "subtype": null,
-        "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
-        "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
-        "sourceGlobalItemId": null,
+        "cherokee": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+        "phonetic": "ni a-ha-ni-dv a-gwa-su-lo",
         "includeInLanguageBank": true
       },
       {
-        "id": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+        "id": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e",
+        "type": "word",
+        "origin": "local",
+        "english": "My pants",
+        "subtype": null,
+        "cherokee": "ᎠᏆᏑᎶ",
+        "phonetic": "a-gwa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "abd37813-15c2-4e52-b5ce-c92b38215823",
+        "type": "word",
+        "origin": "local",
+        "english": "Your pants",
+        "subtype": null,
+        "cherokee": "ᏣᏑᎶ",
+        "phonetic": "tsa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "105524fb-a77f-4311-94be-dbd57da7c7a1",
         "type": "sentence",
         "origin": "local",
-        "english": "You are hungry",
+        "english": "You've got to go to bed now",
         "subtype": null,
-        "cherokee": "ᏣᏲᏏ",
-        "phonetic": "tsa-yo-si",
-        "sourceGlobalItemId": null,
+        "cherokee": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+        "phonetic": "wi-tsa-n(i)-si-n(i)-di no-wu",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "0288265b-875f-4c14-b5be-4a745d2c7ef3",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Put on your sleep shirt",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "81d96702-288a-4d3e-ad56-01943dde6494",
+        "type": "word",
+        "origin": "local",
+        "english": "Your sleep shirt (PJ shirt)",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "053d8eba-f078-43d4-a52e-9af21329189c",
+        "type": "word",
+        "origin": "local",
+        "english": "Your sleep pants (PJ pants)",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "9da7aeda-3e00-407e-9e24-5216eddb5e10",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Okay",
+        "subtype": null,
+        "cherokee": "ᎭᏩ",
+        "phonetic": "ha-wa",
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "cdbb3aa9-a2bb-42d0-81bb-b8c43007897c",
+        "type": "sentence",
+        "origin": "local",
+        "english": "Now put on your PJ pants",
+        "subtype": null,
+        "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+        "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu",
         "includeInLanguageBank": true
       }
     ],
     "schemaVersion": 2,
     "learningTargets": [],
     "estimatedMinutes": 3,
-    "languageUseAreaId": "54880ed3-670d-44ca-b287-0c8de276903f"
+    "languageUseAreaId": "eb3eb0ad-7e28-481c-bf04-c3d456f590f6"
   },
   "created_by": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
-  "created_at": "2026-07-24T14:30:32.117873+00:00",
-  "updated_at": "2026-07-24T14:30:32.117873+00:00",
-  "is_published": false,
-  "published_at": null,
-  "status": "draft",
+  "created_at": "2026-06-05T19:34:39.258467+00:00",
+  "updated_at": "2026-06-05T19:34:39.258467+00:00",
+  "is_published": true,
+  "published_at": "2026-06-05T19:54:10.644+00:00",
+  "status": "published",
   "assigned_to": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
   "updated_by": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
   "editing_by": null,
   "editing_at": null,
   "level": 1,
   "review_note": null,
-  "reviewed_by": null,
-  "reviewed_at": null,
-  "language_use_area_id": "54880ed3-670d-44ca-b287-0c8de276903f",
+  "reviewed_by": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
+  "reviewed_at": "2026-06-05T19:54:10.644+00:00",
+  "language_use_area_id": "eb3eb0ad-7e28-481c-bf04-c3d456f590f6",
   "estimated_minutes": 3,
-  "curriculum_order": 0,
-  "version": 12,
-  "lesson_set_id": null,
-  "lesson_set_order": 0,
+  "curriculum_order": 4,
+  "version": 21,
+  "lesson_set_id": "7cfe3007-d423-454a-8641-834e7079c7bd",
+  "lesson_set_order": 3,
   "editing_profile": null,
   "modules": [
     {
-      "id": "e0387fc9-97a4-42ab-8d51-fb949f4a9d5d",
+      "id": "6e11fa27-706c-4288-af16-42b3c71bce83",
       "data": {
-        "body": "This lesson will focus on teaching you how to ask for language in language. Look at the sample question you will learn how to ask, then use the matching modules to learn the words in the question.",
-        "title": "Lesson focus"
+        "body": "Our Cherokee words to talk about a piece of clothing, like a shirt or pants, normally say who that item belongs to. In this lesson you'll learn how to say different items of clothing, and change them to talk about different people.",
+        "title": "Clothing words"
       },
       "type": "context"
     },
     {
-      "id": "bb63948f-a84b-4f02-bc87-e8744ab1940f",
+      "id": "0a666ed6-1dc4-4595-801e-acccb7758b49",
       "data": {
         "steps": [
           {
-            "id": "88f32118-3abc-4b22-a468-5d3394f07643",
-            "mode": "dialogue",
+            "id": "1b87454e-bf31-41f6-9749-87665ea3d665",
+            "mode": "question",
             "prompt": {
-              "english": "How do you say \"I am hungry\" in Cherokee?",
-              "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-              "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
-            },
-            "speaker": "npc",
-            "answerField": "cherokee",
-            "distractors": [],
-            "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
-            "bankDistractorIds": [],
-            "maskedWordIndicesByField": {
-              "english": [],
-              "cherokee": [],
-              "phonetic": []
-            }
-          },
-          {
-            "id": "ede2d4ad-fa07-4c14-a78c-29fa67a935a0",
-            "mode": "dialogue",
-            "prompt": {
-              "english": "I am hungry",
-              "cherokee": "ᎠᎩᏲᏏ",
-              "phonetic": "a-gi-yo-si"
+              "english": "Where is my shirt?",
+              "cherokee": "ᎭᏢ ᎠᏆᎿᏬ?",
+              "phonetic": "ha-tlv a-gwa-hna-wo"
             },
             "speaker": "user",
             "answerField": "cherokee",
             "distractors": [],
-            "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+            "sentenceBankId": "413cba7f-cbbe-467b-a485-308bd70dc94a",
             "bankDistractorIds": [],
             "maskedWordIndicesByField": {
               "english": [],
-              "cherokee": [],
-              "phonetic": []
+              "cherokee": [
+                1
+              ],
+              "phonetic": [
+                1
+              ]
+            }
+          },
+          {
+            "id": "68bfb871-a807-4aa4-89c5-8fa8daad72d8",
+            "mode": "question",
+            "prompt": {
+              "english": "Look! Here is your shirt",
+              "cherokee": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+              "phonetic": "ni a-ha-ni tsa-hna-wo"
+            },
+            "speaker": "npc",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "68d3c421-bb4f-48e0-a406-61110b87d653",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [
+                2
+              ],
+              "phonetic": [
+                2
+              ]
             }
           }
         ],
@@ -556,32 +778,24 @@
       "type": "conversation"
     },
     {
-      "id": "e6047092-21a2-4766-9342-2690f3c55ad0",
+      "id": "c7c5ae4a-2d56-4ba0-b974-8590352b2cd8",
       "data": {
         "items": [
           {
-            "id": "18c139be-7b85-4651-aff5-9bf472a9bbd9",
-            "bankId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
-            "english": "Cherokee",
-            "cherokee": "ᏣᎳᎩ",
-            "phonetic": "tsa-la-gi",
-            "languageItemId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7"
+            "id": "84ef62bd-6dae-4312-b8e4-bc4b759918ac",
+            "bankId": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "b3de339d-5e40-4e05-95a0-27079f3edd0d"
           },
           {
-            "id": "c40ec146-7cae-410e-bc1a-5a5b16aff362",
-            "bankId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
-            "english": "using",
-            "cherokee": "ᎬᏗ",
-            "phonetic": "gvh-di",
-            "languageItemId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15"
-          },
-          {
-            "id": "9832b7a7-e47e-4acd-b585-4eeab61d02e3",
-            "bankId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
-            "english": "using Cherokee / in Cherokee",
-            "cherokee": "ᏣᎳᎩ ᎬᏗ",
-            "phonetic": "tsa-la-gi gvh-di",
-            "languageItemId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be"
+            "id": "c7fa8ca5-a6ca-414c-9ba0-6ae1755f0c65",
+            "bankId": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "21ab2781-f0a7-41ad-a2aa-138833586d9f"
           }
         ],
         "config": {
@@ -589,60 +803,222 @@
             "english"
           ],
           "frontFields": [
-            "cherokee"
+            "cherokee",
+            "phonetic"
           ]
         }
       },
       "type": "match"
     },
     {
-      "id": "2696fb9b-2faa-47a6-aba4-0432b9081f1b",
-      "data": {
-        "items": [
-          {
-            "id": "14f17a9b-ec8d-453b-b11b-2394f24a89a9",
-            "bankId": "e733a0cb-32d4-4431-b39e-66cd508d7451",
-            "english": "How can one say \"I am hungry?\"",
-            "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
-            "phonetic": "do yv-da \"I am hungry?\"",
-            "languageItemId": "e733a0cb-32d4-4431-b39e-66cd508d7451"
-          },
-          {
-            "id": "10ca9384-4825-4160-9103-9d42b3254b80",
-            "bankId": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
-            "english": "How can one say I am hungry\" in Cherokee?",
-            "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-            "phonetic": "do yv-da I am hungry\"  tsa-la-gi gvh-di?",
-            "languageItemId": "f4be219e-91ca-41a8-9520-fb57d6dd494f"
-          }
-        ],
-        "config": {
-          "backFields": [
-            "english"
-          ],
-          "frontFields": [
-            "cherokee"
-          ]
-        }
-      },
-      "type": "match"
-    },
-    {
-      "id": "3cdea012-012c-4139-8007-4ddd13edf5f5",
+      "id": "d8f5a93b-3c7d-4564-9c85-323d92d33471",
       "data": {
         "steps": [
           {
-            "id": "72f680be-73c7-4a70-ab3d-e4a091330f1e",
+            "id": "91c1fd25-8c61-4dac-bcec-b681917ae212",
             "mode": "question",
             "prompt": {
-              "english": "How do you say \"I am hungry\" in Cherokee?",
-              "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-              "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
+              "english": "Where are your pants?",
+              "cherokee": "ᎭᏢ ᏣᏑᎶ?",
+              "phonetic": "ha-tlv tsa-su-lo?"
             },
             "speaker": "npc",
             "answerField": "cherokee",
             "distractors": [],
-            "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+            "sentenceBankId": "85f1f4b1-b199-4fcd-9a00-af5bf0868d5b",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [
+                1
+              ],
+              "phonetic": [
+                1
+              ]
+            }
+          },
+          {
+            "id": "0558ba7a-9362-40e9-8ab4-0e68dabc8e8f",
+            "mode": "question",
+            "prompt": {
+              "english": "Look! Here are my pants",
+              "cherokee": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+              "phonetic": "ni a-ha-ni-dv a-gwa-su-lo"
+            },
+            "speaker": "user",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "68710e2c-cd62-40c8-8ffb-653a45d21c5c",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [
+                2
+              ],
+              "phonetic": [
+                2
+              ]
+            }
+          }
+        ],
+        "config": {
+          "visibleFields": [
+            "cherokee",
+            "phonetic",
+            "english"
+          ],
+          "showPhoneticWithCherokeeAnswers": true
+        },
+        "globalDistractors": [],
+        "globalBankDistractorIds": []
+      },
+      "type": "conversation"
+    },
+    {
+      "id": "14e6b2b5-39c0-412b-b764-e589da008cce",
+      "data": {
+        "items": [
+          {
+            "id": "ee45d117-ab30-492d-a072-a94816bca7a1",
+            "bankId": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "b3de339d-5e40-4e05-95a0-27079f3edd0d"
+          },
+          {
+            "id": "331ff49c-34b3-4350-9977-b31288f9525f",
+            "bankId": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "21ab2781-f0a7-41ad-a2aa-138833586d9f"
+          },
+          {
+            "id": "93f1c8a6-cd82-4af1-9620-f8e24fb4fd94",
+            "bankId": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e"
+          },
+          {
+            "id": "3c174a24-0b6a-41af-a3fc-af601cdb21b8",
+            "bankId": "abd37813-15c2-4e52-b5ce-c92b38215823",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "abd37813-15c2-4e52-b5ce-c92b38215823"
+          }
+        ],
+        "config": {
+          "backFields": [
+            "english"
+          ],
+          "frontFields": [
+            "cherokee",
+            "phonetic"
+          ]
+        }
+      },
+      "type": "match"
+    },
+    {
+      "id": "6f3948c8-8aa0-491f-bd52-ccc7e12d3907",
+      "data": {
+        "body": "In Cherokee, different communities have different words for things. One one to talk about pajamas is calling them \"sleeping clothes.\"",
+        "title": "Pajamas"
+      },
+      "type": "context"
+    },
+    {
+      "id": "a6b2756e-c32c-4996-af9c-458221aaf78c",
+      "data": {
+        "items": [
+          {
+            "id": "c9ea8e3e-8514-4194-9188-c9f5f3788c58",
+            "bankId": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "b3de339d-5e40-4e05-95a0-27079f3edd0d"
+          },
+          {
+            "id": "c8635723-cb71-411b-9788-030f1a95104f",
+            "bankId": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "21ab2781-f0a7-41ad-a2aa-138833586d9f"
+          },
+          {
+            "id": "aa093f60-9a05-4958-91ca-5c2b1709479b",
+            "bankId": "81d96702-288a-4d3e-ad56-01943dde6494",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "81d96702-288a-4d3e-ad56-01943dde6494"
+          },
+          {
+            "id": "67040052-8753-4920-850e-da0857e68994",
+            "bankId": "053d8eba-f078-43d4-a52e-9af21329189c",
+            "english": "",
+            "cherokee": "",
+            "phonetic": "",
+            "languageItemId": "053d8eba-f078-43d4-a52e-9af21329189c"
+          }
+        ],
+        "config": {
+          "backFields": [
+            "english"
+          ],
+          "frontFields": [
+            "cherokee",
+            "phonetic"
+          ]
+        }
+      },
+      "type": "match"
+    },
+    {
+      "id": "df2b97b9-1af9-4d7e-bd71-173722bf6f5c",
+      "data": {
+        "steps": [
+          {
+            "id": "f62644e5-5987-4f4e-9c19-9d91898855e5",
+            "mode": "question",
+            "prompt": {
+              "english": "You've got to go to bed now",
+              "cherokee": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+              "phonetic": "wi-tsa-n(i)-si-n(i)-di no-wu"
+            },
+            "speaker": "npc",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "105524fb-a77f-4311-94be-dbd57da7c7a1",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [
+                0
+              ],
+              "phonetic": [
+                0
+              ]
+            }
+          },
+          {
+            "id": "71022fbb-cb47-44ff-bbf4-e494d94ebd0c",
+            "mode": "question",
+            "prompt": {
+              "english": "Put on your sleep shirt",
+              "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+              "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa"
+            },
+            "speaker": "npc",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "0288265b-875f-4c14-b5be-4a745d2c7ef3",
             "bankDistractorIds": [],
             "maskedWordIndicesByField": {
               "english": [],
@@ -657,17 +1033,17 @@
             }
           },
           {
-            "id": "b152e9df-2dbf-4a22-bdae-4cc9dbaed1e9",
+            "id": "5a0c0e81-d4c4-4048-bb5a-513e8f526e19",
             "mode": "dialogue",
             "prompt": {
-              "english": "I am hungry",
-              "cherokee": "ᎠᎩᏲᏏ",
-              "phonetic": "a-gi-yo-si"
+              "english": "Okay",
+              "cherokee": "ᎭᏩ",
+              "phonetic": "ha-wa"
             },
             "speaker": "user",
             "answerField": "cherokee",
             "distractors": [],
-            "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+            "sentenceBankId": "9da7aeda-3e00-407e-9e24-5216eddb5e10",
             "bankDistractorIds": [],
             "maskedWordIndicesByField": {
               "english": [],
@@ -676,47 +1052,28 @@
             }
           },
           {
-            "id": "50712d58-84e7-4cc7-abaa-6077e58e93c8",
+            "id": "b0872a84-4d07-43bb-8602-42f8d6853ad4",
             "mode": "question",
             "prompt": {
-              "english": "How do you say \"You are hungry\" in Cherokee?",
-              "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
-              "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?"
+              "english": "Now put on your PJ pants",
+              "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+              "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu"
             },
             "speaker": "npc",
             "answerField": "cherokee",
             "distractors": [],
-            "sentenceBankId": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+            "sentenceBankId": "cdbb3aa9-a2bb-42d0-81bb-b8c43007897c",
             "bankDistractorIds": [],
             "maskedWordIndicesByField": {
               "english": [],
               "cherokee": [
-                5,
-                6
+                0,
+                1
               ],
               "phonetic": [
-                5,
-                6
+                0,
+                1
               ]
-            }
-          },
-          {
-            "id": "aa84b91e-9e7a-459e-96cb-cc12d8e0fdb7",
-            "mode": "dialogue",
-            "prompt": {
-              "english": "You are hungry",
-              "cherokee": "ᏣᏲᏏ",
-              "phonetic": "tsa-yo-si"
-            },
-            "speaker": "user",
-            "answerField": "cherokee",
-            "distractors": [],
-            "sentenceBankId": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
-            "bankDistractorIds": [],
-            "maskedWordIndicesByField": {
-              "english": [],
-              "cherokee": [],
-              "phonetic": []
             }
           }
         ],
@@ -736,116 +1093,146 @@
   ],
   "vocab": [
     {
-      "id": "87c1da23-f3ad-4c0e-bd50-6c3eeaf8b4fb",
+      "id": "413cba7f-cbbe-467b-a485-308bd70dc94a",
       "type": "sentence",
       "origin": "local",
-      "english": "How do you say \"I am hungry\" in Cherokee?",
+      "english": "Where is my shirt?",
       "subtype": null,
-      "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-      "phonetic": "do yv-da \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-      "sourceGlobalItemId": null,
-      "includeInLanguageBank": false
+      "cherokee": "ᎭᏢ ᎠᏆᎿᏬ?",
+      "phonetic": "ha-tlv a-gwa-hna-wo",
+      "includeInLanguageBank": true
     },
     {
-      "id": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+      "id": "68d3c421-bb4f-48e0-a406-61110b87d653",
       "type": "sentence",
       "origin": "local",
-      "english": "I am hungry",
+      "english": "Look! Here is your shirt",
       "subtype": null,
-      "cherokee": "ᎠᎩᏲᏏ",
-      "phonetic": "a-gi-yo-si",
-      "sourceGlobalItemId": null,
+      "cherokee": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+      "phonetic": "ni a-ha-ni tsa-hna-wo",
       "includeInLanguageBank": true
     },
     {
-      "id": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+      "id": "b3de339d-5e40-4e05-95a0-27079f3edd0d",
       "type": "word",
       "origin": "local",
-      "english": "Cherokee",
+      "english": "Your shirt",
       "subtype": null,
-      "cherokee": "ᏣᎳᎩ",
-      "phonetic": "tsa-la-gi",
-      "sourceGlobalItemId": null,
+      "cherokee": "ᏣᎿᏬ",
+      "phonetic": "tsa-hna-wo",
       "includeInLanguageBank": true
     },
     {
-      "id": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+      "id": "21ab2781-f0a7-41ad-a2aa-138833586d9f",
       "type": "word",
       "origin": "local",
-      "english": "using",
+      "english": "My shirt",
       "subtype": null,
-      "cherokee": "ᎬᏗ",
-      "phonetic": "gvh-di",
-      "sourceGlobalItemId": null,
+      "cherokee": "ᎠᏆᎿᏬ",
+      "phonetic": "a-gwa-hna-wo",
       "includeInLanguageBank": true
     },
     {
-      "id": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
-      "type": "word",
-      "origin": "local",
-      "english": "using Cherokee / in Cherokee",
-      "subtype": null,
-      "cherokee": "ᏣᎳᎩ ᎬᏗ",
-      "phonetic": "tsa-la-gi gvh-di",
-      "sourceGlobalItemId": null,
-      "includeInLanguageBank": true
-    },
-    {
-      "id": "e733a0cb-32d4-4431-b39e-66cd508d7451",
-      "type": "word",
-      "origin": "local",
-      "english": "How can one say \"I am hungry?\"",
-      "subtype": null,
-      "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
-      "phonetic": "do yv-da \"I am hungry?\"",
-      "sourceGlobalItemId": null,
-      "includeInLanguageBank": true
-    },
-    {
-      "id": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
-      "type": "word",
-      "origin": "local",
-      "english": "How can one say \"I am hungry\" in Cherokee?",
-      "subtype": null,
-      "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-      "phonetic": "do yv-da \"I am hungry\"  tsa-la-gi gvh-di?",
-      "sourceGlobalItemId": null,
-      "includeInLanguageBank": true
-    },
-    {
-      "id": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+      "id": "85f1f4b1-b199-4fcd-9a00-af5bf0868d5b",
       "type": "sentence",
       "origin": "local",
-      "english": "How do you say \"I am hungry\" in Cherokee?",
+      "english": "Where are your pants?",
       "subtype": null,
-      "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
-      "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
-      "sourceGlobalItemId": null,
+      "cherokee": "ᎭᏢ ᏣᏑᎶ?",
+      "phonetic": "ha-tlv tsa-su-lo?",
       "includeInLanguageBank": true
     },
     {
-      "id": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+      "id": "68710e2c-cd62-40c8-8ffb-653a45d21c5c",
       "type": "sentence",
       "origin": "local",
-      "english": "How do you say \"You are hungry\" in Cherokee?",
+      "english": "Look! Here are my pants",
       "subtype": null,
-      "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
-      "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
-      "sourceGlobalItemId": null,
+      "cherokee": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+      "phonetic": "ni a-ha-ni-dv a-gwa-su-lo",
       "includeInLanguageBank": true
     },
     {
-      "id": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+      "id": "c7e3cfbd-d5a7-4c6c-a2f6-81f54815689e",
+      "type": "word",
+      "origin": "local",
+      "english": "My pants",
+      "subtype": null,
+      "cherokee": "ᎠᏆᏑᎶ",
+      "phonetic": "a-gwa-su-lo",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "abd37813-15c2-4e52-b5ce-c92b38215823",
+      "type": "word",
+      "origin": "local",
+      "english": "Your pants",
+      "subtype": null,
+      "cherokee": "ᏣᏑᎶ",
+      "phonetic": "tsa-su-lo",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "105524fb-a77f-4311-94be-dbd57da7c7a1",
       "type": "sentence",
       "origin": "local",
-      "english": "You are hungry",
+      "english": "You've got to go to bed now",
       "subtype": null,
-      "cherokee": "ᏣᏲᏏ",
-      "phonetic": "tsa-yo-si",
-      "sourceGlobalItemId": null,
+      "cherokee": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+      "phonetic": "wi-tsa-n(i)-si-n(i)-di no-wu",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "0288265b-875f-4c14-b5be-4a745d2c7ef3",
+      "type": "sentence",
+      "origin": "local",
+      "english": "Put on your sleep shirt",
+      "subtype": null,
+      "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+      "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "81d96702-288a-4d3e-ad56-01943dde6494",
+      "type": "word",
+      "origin": "local",
+      "english": "Your sleep shirt (PJ shirt)",
+      "subtype": null,
+      "cherokee": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ",
+      "phonetic": "a-n(i)-si-n(i)-di tsa-hna-wo",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "053d8eba-f078-43d4-a52e-9af21329189c",
+      "type": "word",
+      "origin": "local",
+      "english": "Your sleep pants (PJ pants)",
+      "subtype": null,
+      "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ",
+      "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "9da7aeda-3e00-407e-9e24-5216eddb5e10",
+      "type": "sentence",
+      "origin": "local",
+      "english": "Okay",
+      "subtype": null,
+      "cherokee": "ᎭᏩ",
+      "phonetic": "ha-wa",
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "cdbb3aa9-a2bb-42d0-81bb-b8c43007897c",
+      "type": "sentence",
+      "origin": "local",
+      "english": "Now put on your PJ pants",
+      "subtype": null,
+      "cherokee": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+      "phonetic": "a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu",
       "includeInLanguageBank": true
     }
   ],
   "learningTargets": [],
-  "has_active_published_snapshot": false
+  "has_active_published_snapshot": true
 }

@@ -1,0 +1,182 @@
+{
+  "audio_source": "data/sample_recording.wav",
+  "metrics": {
+    "total_verses": 6,
+    "matched_verses": 6,
+    "matched_verse_ratio": 1.0,
+    "overall_cer": 0.5328,
+    "mean_verse_cer": 0.4827,
+    "total_ground_truth_chars": 122,
+    "total_emitted_chars": 78
+  },
+  "lines": [
+    {
+      "line_id": "88f32118-3abc-4b22-a468-5d3394f07643",
+      "cherokee_syllabary": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "text": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
+      "english": "",
+      "start": 7.77,
+      "end": 10.51,
+      "cer": 0.4194,
+      "emitted_text": "toyv ayvmhakli tsalakikvht",
+      "words": [
+        {
+          "word": "do yv-da \"I",
+          "start": 7.77,
+          "end": 8.15,
+          "confidence": 0.9870623052120209,
+          "flagged": false,
+          "syllabary_word": "Ꮩ ᏴᏓ \"I"
+        },
+        {
+          "word": "am hungry\" tsa-la-gi gvh-di?",
+          "start": 8.65,
+          "end": 10.51,
+          "confidence": 0.8900565899381734,
+          "flagged": false,
+          "syllabary_word": "am hungry\" ᏣᎳᎩ ᎬᏗ?"
+        }
+      ]
+    },
+    {
+      "line_id": "ede2d4ad-fa07-4c14-a78c-29fa67a935a0",
+      "cherokee_syllabary": "ᎠᎩᏲᏏ",
+      "text": "a-gi-yo-si",
+      "english": "",
+      "start": 11.39,
+      "end": 12.25,
+      "cer": 0.0,
+      "emitted_text": "akiyohsi",
+      "words": [
+        {
+          "word": "a-gi-yo-si",
+          "start": 11.39,
+          "end": 12.25,
+          "confidence": 0.9329555109143257,
+          "flagged": false,
+          "syllabary_word": "ᎠᎩᏲᏏ"
+        }
+      ]
+    },
+    {
+      "line_id": "72f680be-73c7-4a70-ab3d-e4a091330f1e",
+      "cherokee_syllabary": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "text": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
+      "english": "",
+      "start": 13.57,
+      "end": 16.38,
+      "cer": 0.4516,
+      "emitted_text": "toye yiyu ahali tsalaki kvht",
+      "words": [
+        {
+          "word": "do yv-da",
+          "start": 13.57,
+          "end": 13.93,
+          "confidence": 0.9738223850727081,
+          "flagged": false,
+          "syllabary_word": "Ꮩ ᏴᏓ"
+        },
+        {
+          "word": "\"I am hungry\" tsa-la-gi",
+          "start": 14.39,
+          "end": 15.96,
+          "confidence": 0.9760831087827683,
+          "flagged": false,
+          "syllabary_word": "\"I am hungry\" ᏣᎳᎩ"
+        },
+        {
+          "word": "gvh-di?",
+          "start": 16.02,
+          "end": 16.38,
+          "confidence": 0.8423156142234802,
+          "flagged": false,
+          "syllabary_word": "ᎬᏗ?"
+        }
+      ]
+    },
+    {
+      "line_id": "b152e9df-2dbf-4a22-bdae-4cc9dbaed1e9",
+      "cherokee_syllabary": "ᎠᎩᏲᏏ",
+      "text": "a-gi-yo-si",
+      "english": "",
+      "start": 17.405,
+      "end": 18.105,
+      "cer": 0.4286,
+      "emitted_text": "tsayohsi",
+      "words": [
+        {
+          "word": "a-gi-yo-si",
+          "start": 17.405,
+          "end": 18.105,
+          "confidence": 0.9999692887067795,
+          "flagged": false,
+          "syllabary_word": "ᎠᎩᏲᏏ"
+        }
+      ]
+    },
+    {
+      "line_id": "50712d58-84e7-4cc7-abaa-6077e58e93c8",
+      "cherokee_syllabary": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "text": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
+      "english": "",
+      "start": 18.465,
+      "end": 19.225,
+      "cer": 0.8824,
+      "emitted_text": "ukhtvv",
+      "words": [
+        {
+          "word": "do",
+          "start": 18.465,
+          "end": 18.465,
+          "confidence": 0.0,
+          "flagged": true,
+          "syllabary_word": "Ꮩ"
+        },
+        {
+          "word": "yv-da",
+          "start": 18.465,
+          "end": 18.465,
+          "confidence": 0.0,
+          "flagged": true,
+          "syllabary_word": "ᏴᏓ"
+        },
+        {
+          "word": "\"You",
+          "start": 18.465,
+          "end": 18.465,
+          "confidence": 0.0,
+          "flagged": true,
+          "syllabary_word": "\"You"
+        },
+        {
+          "word": "are hungry\" tsa-la-gi gvh-di?",
+          "start": 18.465,
+          "end": 19.225,
+          "confidence": 0.8475323716799418,
+          "flagged": false,
+          "syllabary_word": "are hungry\" ᏣᎳᎩ ᎬᏗ?"
+        }
+      ]
+    },
+    {
+      "line_id": "aa84b91e-9e7a-459e-96cb-cc12d8e0fdb7",
+      "cherokee_syllabary": "ᏣᏲᏏ",
+      "text": "tsa-yo-si",
+      "english": "",
+      "start": 19.375,
+      "end": 19.635,
+      "cer": 0.7143,
+      "emitted_text": "nawo",
+      "words": [
+        {
+          "word": "tsa-yo-si",
+          "start": 19.375,
+          "end": 19.635,
+          "confidence": 0.7300792261958122,
+          "flagged": false,
+          "syllabary_word": "ᏣᏲᏏ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 26.285
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "Verses"
+        xmin = 0
+        xmax = 26.285
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.000
+            xmax = 1.405
+            text = ""
+        intervals [2]:
+            xmin = 1.405
+            xmax = 2.585
+            text = "1b87454e-bf31-41f6-9749-87665ea3d665: ha-tlv a-gwa-hna-wo"
+        intervals [3]:
+            xmin = 2.585
+            xmax = 3.345
+            text = ""
+        intervals [4]:
+            xmin = 3.345
+            xmax = 4.825
+            text = "68bfb871-a807-4aa4-89c5-8fa8daad72d8: ni a-ha-ni tsa-hna-wo"
+        intervals [5]:
+            xmin = 4.825
+            xmax = 5.705
+            text = ""
+        intervals [6]:
+            xmin = 5.705
+            xmax = 6.805
+            text = "91c1fd25-8c61-4dac-bcec-b681917ae212: ha-tlv tsa-su-lo?"
+        intervals [7]:
+            xmin = 6.805
+            xmax = 8.145
+            text = ""
+        intervals [8]:
+            xmin = 8.145
+            xmax = 10.165
+            text = "0558ba7a-9362-40e9-8ab4-0e68dabc8e8f: ni a-ha-ni-dv a-gwa-su-lo"
+        intervals [9]:
+            xmin = 10.165
+            xmax = 11.460
+            text = ""
+        intervals [10]:
+            xmin = 11.460
+            xmax = 12.420
+            text = "f62644e5-5987-4f4e-9c19-9d91898855e5: wi-tsa-n(i)-si-n(i)-di no-wu"
+        intervals [11]:
+            xmin = 12.420
+            xmax = 13.555
+            text = ""
+        intervals [12]:
+            xmin = 13.555
+            xmax = 15.655
+            text = "71022fbb-cb47-44ff-bbf4-e494d94ebd0c: a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa"
+        intervals [13]:
+            xmin = 15.655
+            xmax = 16.630
+            text = ""
+        intervals [14]:
+            xmin = 16.630
+            xmax = 16.870
+            text = "5a0c0e81-d4c4-4048-bb5a-513e8f526e19: ha-wa"
+        intervals [15]:
+            xmin = 16.870
+            xmax = 19.520
+            text = ""
+        intervals [16]:
+            xmin = 19.520
+            xmax = 23.560
+            text = "b0872a84-4d07-43bb-8602-42f8d6853ad4: a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu"
+        intervals [17]:
+            xmin = 23.560
+            xmax = 26.285
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "Words"
+        xmin = 0
+        xmax = 26.285
+        intervals: size = 35
+        intervals [1]:
+            xmin = 0.000
+            xmax = 1.405
+            text = ""
+        intervals [2]:
+            xmin = 1.405
+            xmax = 2.585
+            text = "ha-tlv a-gwa-hna-wo"
+        intervals [3]:
+            xmin = 2.585
+            xmax = 3.345
+            text = ""
+        intervals [4]:
+            xmin = 3.345
+            xmax = 3.445
+            text = "ni"
+        intervals [5]:
+            xmin = 3.445
+            xmax = 3.925
+            text = ""
+        intervals [6]:
+            xmin = 3.925
+            xmax = 4.265
+            text = "a-ha-ni"
+        intervals [7]:
+            xmin = 4.265
+            xmax = 4.325
+            text = ""
+        intervals [8]:
+            xmin = 4.325
+            xmax = 4.825
+            text = "tsa-hna-wo"
+        intervals [9]:
+            xmin = 4.825
+            xmax = 5.705
+            text = ""
+        intervals [10]:
+            xmin = 5.705
+            xmax = 6.085
+            text = "ha-tlv"
+        intervals [11]:
+            xmin = 6.085
+            xmax = 6.145
+            text = ""
+        intervals [12]:
+            xmin = 6.145
+            xmax = 6.805
+            text = "tsa-su-lo?"
+        intervals [13]:
+            xmin = 6.805
+            xmax = 8.145
+            text = ""
+        intervals [14]:
+            xmin = 8.145
+            xmax = 8.225
+            text = "ni"
+        intervals [15]:
+            xmin = 8.225
+            xmax = 8.705
+            text = ""
+        intervals [16]:
+            xmin = 8.705
+            xmax = 9.045
+            text = "a-ha-ni-dv"
+        intervals [17]:
+            xmin = 9.045
+            xmax = 9.405
+            text = ""
+        intervals [18]:
+            xmin = 9.405
+            xmax = 10.165
+            text = "a-gwa-su-lo"
+        intervals [19]:
+            xmin = 10.165
+            xmax = 11.460
+            text = ""
+        intervals [20]:
+            xmin = 11.460
+            xmax = 12.420
+            text = "wi-tsa-n(i)-si-n(i)-di no-wu"
+        intervals [21]:
+            xmin = 12.420
+            xmax = 13.555
+            text = ""
+        intervals [22]:
+            xmin = 13.555
+            xmax = 14.115
+            text = "a-n(i)-si-n(i)-di"
+        intervals [23]:
+            xmin = 14.115
+            xmax = 14.195
+            text = ""
+        intervals [24]:
+            xmin = 14.195
+            xmax = 14.675
+            text = "tsa-hna-wo"
+        intervals [25]:
+            xmin = 14.675
+            xmax = 14.915
+            text = ""
+        intervals [26]:
+            xmin = 14.915
+            xmax = 15.655
+            text = "ha-hna-wo-tsa"
+        intervals [27]:
+            xmin = 15.655
+            xmax = 16.630
+            text = ""
+        intervals [28]:
+            xmin = 16.630
+            xmax = 16.870
+            text = "ha-wa"
+        intervals [29]:
+            xmin = 16.870
+            xmax = 19.520
+            text = ""
+        intervals [30]:
+            xmin = 19.520
+            xmax = 20.160
+            text = "a-n(i)-si-n(i)-di"
+        intervals [31]:
+            xmin = 20.160
+            xmax = 21.120
+            text = ""
+        intervals [32]:
+            xmin = 21.120
+            xmax = 21.780
+            text = "tsa-su-lo"
+        intervals [33]:
+            xmin = 21.780
+            xmax = 22.220
+            text = ""
+        intervals [34]:
+            xmin = 22.220
+            xmax = 23.560
+            text = "ha-su-lv-v-ga no-wu"
+        intervals [35]:
+            xmin = 23.560
+            xmax = 26.285
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "Padded Words"
+        xmin = 0
+        xmax = 26.285
+        intervals: size = 29
+        intervals [1]:
+            xmin = 0.000
+            xmax = 1.405
+            text = ""
+        intervals [2]:
+            xmin = 1.405
+            xmax = 2.685
+            text = "ha-tlv a-gwa-hna-wo"
+        intervals [3]:
+            xmin = 2.685
+            xmax = 3.345
+            text = ""
+        intervals [4]:
+            xmin = 3.345
+            xmax = 3.545
+            text = "ni"
+        intervals [5]:
+            xmin = 3.545
+            xmax = 3.925
+            text = ""
+        intervals [6]:
+            xmin = 3.925
+            xmax = 4.925
+            text = "a-ha-ni tsa-hna-wo"
+        intervals [7]:
+            xmin = 4.925
+            xmax = 5.705
+            text = ""
+        intervals [8]:
+            xmin = 5.705
+            xmax = 6.905
+            text = "ha-tlv tsa-su-lo?"
+        intervals [9]:
+            xmin = 6.905
+            xmax = 8.145
+            text = ""
+        intervals [10]:
+            xmin = 8.145
+            xmax = 8.325
+            text = "ni"
+        intervals [11]:
+            xmin = 8.325
+            xmax = 8.705
+            text = ""
+        intervals [12]:
+            xmin = 8.705
+            xmax = 9.145
+            text = "a-ha-ni-dv"
+        intervals [13]:
+            xmin = 9.145
+            xmax = 9.405
+            text = ""
+        intervals [14]:
+            xmin = 9.405
+            xmax = 10.265
+            text = "a-gwa-su-lo"
+        intervals [15]:
+            xmin = 10.265
+            xmax = 11.460
+            text = ""
+        intervals [16]:
+            xmin = 11.460
+            xmax = 12.520
+            text = "wi-tsa-n(i)-si-n(i)-di no-wu"
+        intervals [17]:
+            xmin = 12.520
+            xmax = 13.555
+            text = ""
+        intervals [18]:
+            xmin = 13.555
+            xmax = 14.775
+            text = "a-n(i)-si-n(i)-di tsa-hna-wo"
+        intervals [19]:
+            xmin = 14.775
+            xmax = 14.915
+            text = ""
+        intervals [20]:
+            xmin = 14.915
+            xmax = 15.755
+            text = "ha-hna-wo-tsa"
+        intervals [21]:
+            xmin = 15.755
+            xmax = 16.630
+            text = ""
+        intervals [22]:
+            xmin = 16.630
+            xmax = 16.970
+            text = "ha-wa"
+        intervals [23]:
+            xmin = 16.970
+            xmax = 19.520
+            text = ""
+        intervals [24]:
+            xmin = 19.520
+            xmax = 20.260
+            text = "a-n(i)-si-n(i)-di"
+        intervals [25]:
+            xmin = 20.260
+            xmax = 21.120
+            text = ""
+        intervals [26]:
+            xmin = 21.120
+            xmax = 21.880
+            text = "tsa-su-lo"
+        intervals [27]:
+            xmin = 21.880
+            xmax = 22.220
+            text = ""
+        intervals [28]:
+            xmin = 22.220
+            xmax = 23.660
+            text = "ha-su-lv-v-ga no-wu"
+        intervals [29]:
+            xmin = 23.660
+            xmax = 26.285
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "Raw ASR Emissions"
+        xmin = 0
+        xmax = 26.285
+        intervals: size = 58
+        intervals [1]:
+            xmin = 0.000
+            xmax = 0.260
+            text = ""
+        intervals [2]:
+            xmin = 0.260
+            xmax = 1.240
+            text = "okhanavhv"
+        intervals [3]:
+            xmin = 1.240
+            xmax = 1.405
+            text = ""
+        intervals [4]:
+            xmin = 1.405
+            xmax = 1.845
+            text = "holhv"
+        intervals [5]:
+            xmin = 1.845
+            xmax = 1.965
+            text = ""
+        intervals [6]:
+            xmin = 1.965
+            xmax = 2.585
+            text = "akwanhawv"
+        intervals [7]:
+            xmin = 2.585
+            xmax = 3.345
+            text = ""
+        intervals [8]:
+            xmin = 3.345
+            xmax = 3.445
+            text = "ni"
+        intervals [9]:
+            xmin = 3.445
+            xmax = 3.925
+            text = ""
+        intervals [10]:
+            xmin = 3.925
+            xmax = 4.265
+            text = "ahani"
+        intervals [11]:
+            xmin = 4.265
+            xmax = 4.325
+            text = ""
+        intervals [12]:
+            xmin = 4.325
+            xmax = 4.825
+            text = "tsanhawo"
+        intervals [13]:
+            xmin = 4.825
+            xmax = 5.705
+            text = ""
+        intervals [14]:
+            xmin = 5.705
+            xmax = 6.085
+            text = "holhv"
+        intervals [15]:
+            xmin = 6.085
+            xmax = 6.145
+            text = ""
+        intervals [16]:
+            xmin = 6.145
+            xmax = 6.805
+            text = "tsahsulo"
+        intervals [17]:
+            xmin = 6.805
+            xmax = 8.145
+            text = ""
+        intervals [18]:
+            xmin = 8.145
+            xmax = 8.225
+            text = "ni"
+        intervals [19]:
+            xmin = 8.225
+            xmax = 8.705
+            text = ""
+        intervals [20]:
+            xmin = 8.705
+            xmax = 9.045
+            text = "ahani"
+        intervals [21]:
+            xmin = 9.045
+            xmax = 9.405
+            text = ""
+        intervals [22]:
+            xmin = 9.405
+            xmax = 10.165
+            text = "awahsulo"
+        intervals [23]:
+            xmin = 10.165
+            xmax = 11.460
+            text = ""
+        intervals [24]:
+            xmin = 11.460
+            xmax = 12.420
+            text = "witsanhsinhtino"
+        intervals [25]:
+            xmin = 12.420
+            xmax = 13.555
+            text = ""
+        intervals [26]:
+            xmin = 13.555
+            xmax = 14.115
+            text = "onhsinhti"
+        intervals [27]:
+            xmin = 14.115
+            xmax = 14.195
+            text = ""
+        intervals [28]:
+            xmin = 14.195
+            xmax = 14.675
+            text = "tsanhawo"
+        intervals [29]:
+            xmin = 14.675
+            xmax = 14.915
+            text = ""
+        intervals [30]:
+            xmin = 14.915
+            xmax = 15.655
+            text = "hanhawotsa"
+        intervals [31]:
+            xmin = 15.655
+            xmax = 16.630
+            text = ""
+        intervals [32]:
+            xmin = 16.630
+            xmax = 16.870
+            text = "hawa"
+        intervals [33]:
+            xmin = 16.870
+            xmax = 17.560
+            text = ""
+        intervals [34]:
+            xmin = 17.560
+            xmax = 17.800
+            text = "akanv"
+        intervals [35]:
+            xmin = 17.800
+            xmax = 17.980
+            text = ""
+        intervals [36]:
+            xmin = 17.980
+            xmax = 18.020
+            text = "av"
+        intervals [37]:
+            xmin = 18.020
+            xmax = 18.235
+            text = ""
+        intervals [38]:
+            xmin = 18.235
+            xmax = 18.255
+            text = "a"
+        intervals [39]:
+            xmin = 18.255
+            xmax = 18.590
+            text = ""
+        intervals [40]:
+            xmin = 18.590
+            xmax = 18.610
+            text = "u"
+        intervals [41]:
+            xmin = 18.610
+            xmax = 18.825
+            text = ""
+        intervals [42]:
+            xmin = 18.825
+            xmax = 19.005
+            text = "aa"
+        intervals [43]:
+            xmin = 19.005
+            xmax = 19.520
+            text = ""
+        intervals [44]:
+            xmin = 19.520
+            xmax = 20.160
+            text = "anhsinhti"
+        intervals [45]:
+            xmin = 20.160
+            xmax = 21.120
+            text = ""
+        intervals [46]:
+            xmin = 21.120
+            xmax = 21.780
+            text = "tsahsulo"
+        intervals [47]:
+            xmin = 21.780
+            xmax = 22.220
+            text = ""
+        intervals [48]:
+            xmin = 22.220
+            xmax = 23.160
+            text = "hahsul'vka"
+        intervals [49]:
+            xmin = 23.160
+            xmax = 23.340
+            text = ""
+        intervals [50]:
+            xmin = 23.340
+            xmax = 23.560
+            text = "no'"
+        intervals [51]:
+            xmin = 23.560
+            xmax = 24.060
+            text = ""
+        intervals [52]:
+            xmin = 24.060
+            xmax = 24.200
+            text = "na"
+        intervals [53]:
+            xmin = 24.200
+            xmax = 24.530
+            text = ""
+        intervals [54]:
+            xmin = 24.530
+            xmax = 24.550
+            text = "a"
+        intervals [55]:
+            xmin = 24.550
+            xmax = 24.710
+            text = ""
+        intervals [56]:
+            xmin = 24.710
+            xmax = 25.530
+            text = "atatahva"
+        intervals [57]:
+            xmin = 25.530
+            xmax = 25.805
+            text = ""
+        intervals [58]:
+            xmin = 25.805
+            xmax = 26.285
+            text = "aaho"

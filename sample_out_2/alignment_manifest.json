@@ -1,0 +1,246 @@
+{
+  "audio_source": "data/sample_two.wav",
+  "metrics": {
+    "total_verses": 8,
+    "matched_verses": 8,
+    "matched_verse_ratio": 1.0,
+    "overall_cer": 0.1469,
+    "mean_verse_cer": 0.1398,
+    "total_ground_truth_chars": 143,
+    "total_emitted_chars": 126
+  },
+  "lines": [
+    {
+      "line_id": "1b87454e-bf31-41f6-9749-87665ea3d665",
+      "cherokee_syllabary": "ᎭᏢ ᎠᏆᎿᏬ?",
+      "text": "ha-tlv a-gwa-hna-wo",
+      "english": "",
+      "start": 1.405,
+      "end": 2.585,
+      "cer": 0.2308,
+      "emitted_text": "holhv akwanhawv",
+      "words": [
+        {
+          "word": "ha-tlv a-gwa-hna-wo",
+          "start": 1.405,
+          "end": 2.585,
+          "confidence": 0.9618500040637122,
+          "flagged": false,
+          "syllabary_word": "ᎭᏢ ᎠᏆᎿᏬ?"
+        }
+      ]
+    },
+    {
+      "line_id": "68bfb871-a807-4aa4-89c5-8fa8daad72d8",
+      "cherokee_syllabary": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+      "text": "ni a-ha-ni tsa-hna-wo",
+      "english": "",
+      "start": 3.345,
+      "end": 4.825,
+      "cer": 0.0,
+      "emitted_text": "ni ahani tsanhawo",
+      "words": [
+        {
+          "word": "ni",
+          "start": 3.345,
+          "end": 3.445,
+          "confidence": 0.995276689529419,
+          "flagged": false,
+          "syllabary_word": "Ꮒ!"
+        },
+        {
+          "word": "a-ha-ni",
+          "start": 3.925,
+          "end": 4.265,
+          "confidence": 0.9995201587677002,
+          "flagged": false,
+          "syllabary_word": "ᎠᎭᏂ"
+        },
+        {
+          "word": "tsa-hna-wo",
+          "start": 4.325,
+          "end": 4.825,
+          "confidence": 0.9901310503482819,
+          "flagged": false,
+          "syllabary_word": "ᏣᎿᏬ"
+        }
+      ]
+    },
+    {
+      "line_id": "91c1fd25-8c61-4dac-bcec-b681917ae212",
+      "cherokee_syllabary": "ᎭᏢ ᏣᏑᎶ?",
+      "text": "ha-tlv tsa-su-lo?",
+      "english": "",
+      "start": 5.705,
+      "end": 6.805,
+      "cer": 0.1667,
+      "emitted_text": "holhv tsahsulo",
+      "words": [
+        {
+          "word": "ha-tlv",
+          "start": 5.705,
+          "end": 6.085,
+          "confidence": 0.9559797048568726,
+          "flagged": false,
+          "syllabary_word": "ᎭᏢ"
+        },
+        {
+          "word": "tsa-su-lo?",
+          "start": 6.145,
+          "end": 6.805,
+          "confidence": 0.9972868412733078,
+          "flagged": false,
+          "syllabary_word": "ᏣᏑᎶ?"
+        }
+      ]
+    },
+    {
+      "line_id": "0558ba7a-9362-40e9-8ab4-0e68dabc8e8f",
+      "cherokee_syllabary": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+      "text": "ni a-ha-ni-dv a-gwa-su-lo",
+      "english": "",
+      "start": 8.145,
+      "end": 10.165,
+      "cer": 0.1667,
+      "emitted_text": "ni ahani awahsulo",
+      "words": [
+        {
+          "word": "ni",
+          "start": 8.145,
+          "end": 8.225,
+          "confidence": 0.9950477778911591,
+          "flagged": false,
+          "syllabary_word": "Ꮒ!"
+        },
+        {
+          "word": "a-ha-ni-dv",
+          "start": 8.705,
+          "end": 9.045,
+          "confidence": 0.9756500363349915,
+          "flagged": false,
+          "syllabary_word": "ᎠᎭᏂᏛ"
+        },
+        {
+          "word": "a-gwa-su-lo",
+          "start": 9.405,
+          "end": 10.165,
+          "confidence": 0.9784501940011978,
+          "flagged": false,
+          "syllabary_word": "ᎠᏆᏑᎶ"
+        }
+      ]
+    },
+    {
+      "line_id": "f62644e5-5987-4f4e-9c19-9d91898855e5",
+      "cherokee_syllabary": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+      "text": "wi-tsa-n(i)-si-n(i)-di no-wu",
+      "english": "",
+      "start": 11.46,
+      "end": 12.42,
+      "cer": 0.2778,
+      "emitted_text": "witsanhsinhtino",
+      "words": [
+        {
+          "word": "wi-tsa-n(i)-si-n(i)-di no-wu",
+          "start": 11.46,
+          "end": 12.42,
+          "confidence": 0.9847468852996826,
+          "flagged": false,
+          "syllabary_word": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ"
+        }
+      ]
+    },
+    {
+      "line_id": "71022fbb-cb47-44ff-bbf4-e494d94ebd0c",
+      "cherokee_syllabary": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+      "text": "a-n(i)-si-n(i)-di tsa-hna-wo ha-hna-wo-tsa",
+      "english": "",
+      "start": 13.555,
+      "end": 15.655,
+      "cer": 0.1154,
+      "emitted_text": "onhsinhti tsanhawo hanhawotsa",
+      "words": [
+        {
+          "word": "a-n(i)-si-n(i)-di",
+          "start": 13.555,
+          "end": 14.115,
+          "confidence": 0.9223667780558268,
+          "flagged": false,
+          "syllabary_word": "ᎠᏂᏏᏂᏗ"
+        },
+        {
+          "word": "tsa-hna-wo",
+          "start": 14.195,
+          "end": 14.675,
+          "confidence": 0.9741136506199837,
+          "flagged": false,
+          "syllabary_word": "ᏣᎿᏬ"
+        },
+        {
+          "word": "ha-hna-wo-tsa",
+          "start": 14.915,
+          "end": 15.655,
+          "confidence": 0.912078183889389,
+          "flagged": false,
+          "syllabary_word": "ᎭᎿᏬᏣ"
+        }
+      ]
+    },
+    {
+      "line_id": "5a0c0e81-d4c4-4048-bb5a-513e8f526e19",
+      "cherokee_syllabary": "ᎭᏩ",
+      "text": "ha-wa",
+      "english": "",
+      "start": 16.63,
+      "end": 16.87,
+      "cer": 0.0,
+      "emitted_text": "hawa",
+      "words": [
+        {
+          "word": "ha-wa",
+          "start": 16.63,
+          "end": 16.87,
+          "confidence": 0.9187858998775482,
+          "flagged": false,
+          "syllabary_word": "ᎭᏩ"
+        }
+      ]
+    },
+    {
+      "line_id": "b0872a84-4d07-43bb-8602-42f8d6853ad4",
+      "cherokee_syllabary": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+      "text": "a-n(i)-si-n(i)-di tsa-su-lo ha-su-lv-v-ga no-wu",
+      "english": "",
+      "start": 19.52,
+      "end": 23.56,
+      "cer": 0.1613,
+      "emitted_text": "anhsinhti tsahsulo hahsul'vka no'",
+      "words": [
+        {
+          "word": "a-n(i)-si-n(i)-di",
+          "start": 19.52,
+          "end": 20.16,
+          "confidence": 0.999830855263604,
+          "flagged": false,
+          "syllabary_word": "ᎠᏂᏏᏂᏗ"
+        },
+        {
+          "word": "tsa-su-lo",
+          "start": 21.12,
+          "end": 21.78,
+          "confidence": 0.9997686222195625,
+          "flagged": false,
+          "syllabary_word": "ᏣᏑᎶ"
+        },
+        {
+          "word": "ha-su-lv-v-ga no-wu",
+          "start": 22.22,
+          "end": 23.56,
+          "confidence": 0.8998774905999501,
+          "flagged": false,
+          "syllabary_word": "ᎭᏑᎸᎥᎦ ᏃᏭ"
+        }
+      ]
+    }
+  ]
+}
