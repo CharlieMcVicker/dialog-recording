@@ -21,7 +21,7 @@ export function extractChunkList(lesson: LessonRecord | InnerLessonJson): ChunkI
         const side = speaker.toLowerCase() === 'user' ? 'left' : 'right';
         chunks.push({
           line_id: step.id,
-          raw_phonetic: step.prompt.phonetic.replace(/\([aeiouv]\)/g, ''),
+          raw_phonetic: step.prompt.phonetic.replace(/\([aeiouv]\)/g, '').replace(/\-/g, ""),
           cherokee_syllabary: step.prompt.cherokee,
           speaker,
           side,

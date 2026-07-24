@@ -1,15 +1,95 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Mic, Square, UploadCloud, FileAudio, Loader } from 'lucide-react';
+import { Mic, Square, UploadCloud, FileAudio, Loader, ChevronDown, ChevronRight, FileText } from 'lucide-react';
 import { ChunkItem } from '../modules/LessonIngestion';
 import KaraokePlayer from './KaraokePlayer';
 import { LanguageItem } from '../lesson_schema';
 import VocabAuditView from './VocabAuditView';
 
-interface AudioRecorderProps {
+export interface AudioRecorderProps {
   chunkList: ChunkItem[] | null;
   vocab: LanguageItem[] | null;
   embedded?: boolean;
   onAlignmentComplete?: (data: { audioURL: string; manifest: any; textGrid?: any }) => void;
+}
+
+export function getMatchedAudioCer(manifest: any): number | null {
+  if (!manifest) return null;
+  const metrics = manifest.metrics;
+  if (metrics) {
+    if (typeof metrics.matched_verse_cer === 'number') return metrics.matched_verse_cer;
+    if (typeof metrics.overall_cer === 'number') return metrics.overall_cer;
+    if (typeof metrics.mean_verse_cer === 'number') return metrics.mean_verse_cer;
+  }
+  const lines = manifest.lines || manifest.segments || [];
+  const linesWithCer = lines.filter((l: any) => typeof l.cer === 'number');
+  if (linesWithCer.length > 0) {
+    const sum = linesWithCer.reduce((acc: number, l: any) => acc + l.cer, 0);
+    return sum / linesWithCer.length;
+  }
+  return null;
+}
+
+export function getRawTranscriptText(manifest: any): string {
+  if (!manifest) return '';
+  if (manifest.raw_transcript) return manifest.raw_transcript;
+  if (manifest.transcript) return manifest.transcript;
+  
+  const lines = manifest.lines || manifest.segments || [];
+  const emittedTexts = lines
+    .map((l: any) => l.emitted_text || l.text || '')
+    .filter((txt: string) => txt.trim().length > 0);
+    
+  if (emittedTexts.length > 0) {
+    return emittedTexts.join('\n');
+  }
+  return 'No raw transcript available for this alignment.';
+}
+
+export function trimSilence(
+  samples: Float32Array,
+  sampleRate: number,
+  threshold: number = 0.015,
+  padMs: number = 100
+): Float32Array {
+  if (!samples || samples.length === 0) return samples;
+
+  let firstSpeechIndex = -1;
+  for (let i = 0; i < samples.length; i++) {
+    if (Math.abs(samples[i]) >= threshold) {
+      firstSpeechIndex = i;
+      break;
+    }
+  }
+
+  if (firstSpeechIndex === -1) return samples;
+
+  const padSamples = Math.floor((sampleRate * padMs) / 1000);
+  const startIndex = Math.max(0, firstSpeechIndex - padSamples);
+
+  return new Float32Array(samples.subarray(startIndex)) as any;
+}
+
+export function normalizeAudio(
+  samples: Float32Array,
+  targetPeak: number = 0.90
+): Float32Array {
+  if (!samples || samples.length === 0) return samples;
+
+  let maxAmp = 0;
+  for (let i = 0; i < samples.length; i++) {
+    const abs = Math.abs(samples[i]);
+    if (abs > maxAmp) maxAmp = abs;
+  }
+
+  if (maxAmp <= 0.001 || maxAmp >= targetPeak) return samples;
+
+  const scale = targetPeak / maxAmp;
+  const normalized = new Float32Array(samples.length);
+  for (let i = 0; i < samples.length; i++) {
+    normalized[i] = Math.max(-1, Math.min(1, samples[i] * scale));
+  }
+
+  return normalized as any;
 }
 
 export default function AudioRecorder({ chunkList, vocab, embedded = false, onAlignmentComplete }: AudioRecorderProps) {
@@ -18,6 +98,7 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [alignStatus, setAlignStatus] = useState<'idle' | 'uploading' | 'aligning' | 'complete' | 'error'>('idle');
   const [alignmentResult, setAlignmentResult] = useState<any>(null);
+  const [isRawTranscriptOpen, setIsRawTranscriptOpen] = useState(false);
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const audioContextRef = useRef<AudioContext | null>(null);
@@ -131,17 +212,22 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
 
       scriptNode.onaudioprocess = (e) => {
         const inputData = e.inputBuffer.getChannelData(0);
-        pcmBuffersRef.current.push(new Float32Array(inputData));
+        pcmBuffersRef.current.push(new Float32Array(inputData.slice(0)));
       };
 
       source.connect(scriptNode);
-      scriptNode.connect(audioContext.destination);
+      // Route through silence gain node to prevent speaker feedback loop noise during recording
+      const silenceGain = audioContext.createGain();
+      silenceGain.gain.value = 0;
+      scriptNode.connect(silenceGain);
+      silenceGain.connect(audioContext.destination);
 
       setIsRecording(true);
       setAudioURL(null);
       setAudioBlob(null);
       setAlignStatus('idle');
       setAlignmentResult(null);
+      setIsRawTranscriptOpen(false);
       drawWaveform();
     } catch (err) {
       console.error('Error accessing microphone', err);
@@ -156,7 +242,7 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
 
       // Calculate total sample count
       const totalSamples = pcmBuffersRef.current.reduce((acc, buf) => acc + buf.length, 0);
-      const mergedSamples = new Float32Array(totalSamples);
+      let mergedSamples: any = new Float32Array(totalSamples);
       let offset = 0;
       for (const buf of pcmBuffersRef.current) {
         mergedSamples.set(buf, offset);
@@ -164,6 +250,11 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
       }
 
       const sampleRate = audioContextRef.current.sampleRate;
+      
+      // Trim leading silence before speech onset & normalize audio amplitude level
+      mergedSamples = trimSilence(mergedSamples, sampleRate);
+      mergedSamples = normalizeAudio(mergedSamples);
+
       const wavBlob = encodeWAV(mergedSamples, sampleRate);
 
       if (wavBlob.size > 44) {
@@ -193,6 +284,7 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
       setAudioBlob(file);
       setAlignStatus('idle');
       setAlignmentResult(null);
+      setIsRawTranscriptOpen(false);
     }
   };
 
@@ -202,9 +294,9 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
     if (!audioBlob || !chunkList) return;
 
     setAlignStatus('uploading');
-    setErrorMessage(null);
     const formData = new FormData();
-    formData.append('audio', audioBlob, 'recording.wav');
+    const filename = (audioBlob as any).name || (audioBlob.type.includes('mp3') ? 'recording.mp3' : 'recording.wav');
+    formData.append('audio', audioBlob, filename);
     formData.append('chunkList', JSON.stringify(chunkList));
 
     try {
@@ -306,6 +398,117 @@ export default function AudioRecorder({ chunkList, vocab, embedded = false, onAl
             <strong>Alignment Failed:</strong> {errorMessage || 'An error occurred during alignment.'}
           </div>
         )}
+
+        {alignStatus === 'complete' && alignmentResult?.manifest && (() => {
+          const cer = getMatchedAudioCer(alignmentResult.manifest);
+          const cerPercentage = cer !== null ? `${(cer * 100).toFixed(1)}%` : 'N/A';
+          const rawTranscript = getRawTranscriptText(alignmentResult.manifest);
+
+          const getCerBadgeColor = (val: number | null) => {
+            if (val === null) return 'var(--text-muted)';
+            if (val <= 0.15) return '#10b981';
+            if (val <= 0.40) return '#f59e0b';
+            return '#f43f5e';
+          };
+
+          const cerColor = getCerBadgeColor(cer);
+
+          return (
+            <div 
+              className="alignment-report-card" 
+              style={{
+                padding: '0.85rem 1rem',
+                backgroundColor: 'rgba(255, 255, 255, 0.03)',
+                borderRadius: '8px',
+                border: '1px solid var(--border-color)',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.75rem'
+              }}
+            >
+              {/* CER Metric Summary */}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-main)' }}>
+                    Matched Audio CER:
+                  </span>
+                  <span 
+                    className="cer-badge"
+                    style={{
+                      padding: '0.2rem 0.55rem',
+                      borderRadius: '9999px',
+                      backgroundColor: `${cerColor}20`,
+                      color: cerColor,
+                      border: `1px solid ${cerColor}40`,
+                      fontSize: '0.85rem',
+                      fontWeight: 700
+                    }}
+                  >
+                    {cerPercentage} {cer !== null ? `(${cer.toFixed(4)})` : ''}
+                  </span>
+                </div>
+                {alignmentResult.manifest.metrics?.matched_verses !== undefined && (
+                  <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                    {alignmentResult.manifest.metrics.matched_verses} / {alignmentResult.manifest.metrics.total_verses || '?'} verses matched
+                  </span>
+                )}
+              </div>
+
+              {/* Collapsed-by-default Raw Transcript Accordion */}
+              <div style={{ borderRadius: '6px', overflow: 'hidden', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
+                <button
+                  type="button"
+                  className="raw-transcript-toggle"
+                  onClick={() => setIsRawTranscriptOpen(!isRawTranscriptOpen)}
+                  style={{
+                    width: '100%',
+                    padding: '0.5rem 0.75rem',
+                    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                    color: 'var(--text-main)',
+                    border: 'none',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    cursor: 'pointer',
+                    fontSize: '0.85rem',
+                    fontWeight: 500
+                  }}
+                >
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <FileText size={15} color="var(--accent-cyan)" />
+                    <span>Raw Transcript</span>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                      {isRawTranscriptOpen ? 'Hide' : 'Review'}
+                    </span>
+                    {isRawTranscriptOpen ? <ChevronDown size={16} /> : <ChevronRight size={16} />}
+                  </div>
+                </button>
+
+                {isRawTranscriptOpen && (
+                  <div 
+                    className="raw-transcript-content"
+                    style={{
+                      padding: '0.75rem',
+                      backgroundColor: '#141414',
+                      borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+                      fontSize: '0.85rem',
+                      fontFamily: 'monospace',
+                      color: '#e2e8f0',
+                      maxHeight: '180px',
+                      overflowY: 'auto',
+                      whiteSpace: 'pre-wrap',
+                      wordBreak: 'break-word'
+                    }}
+                  >
+                    {rawTranscript}
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })()}
 
         {alignStatus === 'complete' && alignmentResult && audioURL && !embedded && (
           <>

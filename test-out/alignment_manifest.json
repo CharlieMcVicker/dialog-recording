@@ -1,0 +1,254 @@
+{
+  "audio_source": "/Users/julietmcvicker/code/dialog-recording/data/sample_two.wav",
+  "metrics": {
+    "total_verses": 8,
+    "matched_verses": 8,
+    "matched_verse_ratio": 1.0,
+    "overall_cer": 0.1898,
+    "mean_verse_cer": 0.1697,
+    "total_ground_truth_chars": 137,
+    "total_emitted_chars": 137
+  },
+  "lines": [
+    {
+      "line_id": "1b87454e-bf31-41f6-9749-87665ea3d665",
+      "cherokee_syllabary": "ᎭᏢ ᎠᏆᎿᏬ?",
+      "text": "hatlv agwahnawo",
+      "english": "",
+      "start": 1.41,
+      "end": 2.59,
+      "cer": 0.3077,
+      "emitted_text": "holha akwanhawv",
+      "words": [
+        {
+          "word": "hatlv agwahnawo",
+          "start": 1.41,
+          "end": 2.59,
+          "confidence": 0.9355898095501793,
+          "flagged": false,
+          "syllabary_word": "ᎭᏢ ᎠᏆᎿᏬ?"
+        }
+      ]
+    },
+    {
+      "line_id": "68bfb871-a807-4aa4-89c5-8fa8daad72d8",
+      "cherokee_syllabary": "Ꮒ! ᎠᎭᏂ ᏣᎿᏬ",
+      "text": "ni ahani tsahnawo",
+      "english": "",
+      "start": 3.36,
+      "end": 4.835,
+      "cer": 0.0667,
+      "emitted_text": "ni ahani tsonhawo",
+      "words": [
+        {
+          "word": "ni",
+          "start": 3.36,
+          "end": 3.44,
+          "confidence": 0.9999691247940063,
+          "flagged": false,
+          "syllabary_word": "Ꮒ!"
+        },
+        {
+          "word": "ahani",
+          "start": 3.935,
+          "end": 4.255,
+          "confidence": 0.9691824913024902,
+          "flagged": false,
+          "syllabary_word": "ᎠᎭᏂ"
+        },
+        {
+          "word": "tsahnawo",
+          "start": 4.335,
+          "end": 4.835,
+          "confidence": 0.9679509252309799,
+          "flagged": false,
+          "syllabary_word": "ᏣᎿᏬ"
+        }
+      ]
+    },
+    {
+      "line_id": "91c1fd25-8c61-4dac-bcec-b681917ae212",
+      "cherokee_syllabary": "ᎭᏢ ᏣᏑᎶ?",
+      "text": "hatlv tsasulo?",
+      "english": "",
+      "start": 5.705,
+      "end": 6.825,
+      "cer": 0.1667,
+      "emitted_text": "holhv tsahsulo",
+      "words": [
+        {
+          "word": "hatlv",
+          "start": 5.705,
+          "end": 6.085,
+          "confidence": 0.9800316572189331,
+          "flagged": false,
+          "syllabary_word": "ᎭᏢ"
+        },
+        {
+          "word": "tsasulo?",
+          "start": 6.145,
+          "end": 6.825,
+          "confidence": 0.9991998076438904,
+          "flagged": false,
+          "syllabary_word": "ᏣᏑᎶ?"
+        }
+      ]
+    },
+    {
+      "line_id": "0558ba7a-9362-40e9-8ab4-0e68dabc8e8f",
+      "cherokee_syllabary": "Ꮒ! ᎠᎭᏂᏛ ᎠᏆᏑᎶ",
+      "text": "ni ahanidv agwasulo",
+      "english": "",
+      "start": 8.14,
+      "end": 10.18,
+      "cer": 0.1667,
+      "emitted_text": "ni ahani awahsulo",
+      "words": [
+        {
+          "word": "ni",
+          "start": 8.14,
+          "end": 8.24,
+          "confidence": 0.999039500951767,
+          "flagged": false,
+          "syllabary_word": "Ꮒ!"
+        },
+        {
+          "word": "ahanidv",
+          "start": 8.7,
+          "end": 9.04,
+          "confidence": 0.9415758848190308,
+          "flagged": false,
+          "syllabary_word": "ᎠᎭᏂᏛ"
+        },
+        {
+          "word": "agwasulo",
+          "start": 9.4,
+          "end": 10.18,
+          "confidence": 0.9979400262236595,
+          "flagged": false,
+          "syllabary_word": "ᎠᏆᏑᎶ"
+        }
+      ]
+    },
+    {
+      "line_id": "f62644e5-5987-4f4e-9c19-9d91898855e5",
+      "cherokee_syllabary": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ",
+      "text": "witsansindi nowu",
+      "english": "",
+      "start": 11.455,
+      "end": 12.415,
+      "cer": 0.1875,
+      "emitted_text": "witsanhsinhtino",
+      "words": [
+        {
+          "word": "witsansindi nowu",
+          "start": 11.455,
+          "end": 12.415,
+          "confidence": 0.9795658032099406,
+          "flagged": false,
+          "syllabary_word": "ᏫᏣᏂᏏᏂᏗ ᏃᏭ"
+        }
+      ]
+    },
+    {
+      "line_id": "71022fbb-cb47-44ff-bbf4-e494d94ebd0c",
+      "cherokee_syllabary": "ᎠᏂᏏᏂᏗ ᏣᎿᏬ ᎭᎿᏬᏣ",
+      "text": "ansindi tsahnawo hahnawotsa",
+      "english": "",
+      "start": 13.55,
+      "end": 15.645,
+      "cer": 0.0833,
+      "emitted_text": "onhsinhti tsanhawo khanhawotsa",
+      "words": [
+        {
+          "word": "ansindi",
+          "start": 13.55,
+          "end": 14.13,
+          "confidence": 0.992222958140903,
+          "flagged": false,
+          "syllabary_word": "ᎠᏂᏏᏂᏗ"
+        },
+        {
+          "word": "tsahnawo",
+          "start": 14.19,
+          "end": 14.67,
+          "confidence": 0.9733305126428604,
+          "flagged": false,
+          "syllabary_word": "ᏣᎿᏬ"
+        },
+        {
+          "word": "hahnawotsa",
+          "start": 14.905,
+          "end": 15.645,
+          "confidence": 0.8864295916123823,
+          "flagged": false,
+          "syllabary_word": "ᎭᎿᏬᏣ"
+        }
+      ]
+    },
+    {
+      "line_id": "5a0c0e81-d4c4-4048-bb5a-513e8f526e19",
+      "cherokee_syllabary": "ᎭᏩ",
+      "text": "hawa",
+      "english": "",
+      "start": 16.615,
+      "end": 16.895,
+      "cer": 0.0,
+      "emitted_text": "hawa",
+      "words": [
+        {
+          "word": "hawa",
+          "start": 16.615,
+          "end": 16.895,
+          "confidence": 0.875770777463913,
+          "flagged": false,
+          "syllabary_word": "ᎭᏩ"
+        }
+      ]
+    },
+    {
+      "line_id": "b0872a84-4d07-43bb-8602-42f8d6853ad4",
+      "cherokee_syllabary": "ᎠᏂᏏᏂᏗ ᏣᏑᎶ ᎭᏑᎸᎥᎦ ᏃᏭ",
+      "text": "ansindi tsasulo hasulvvga nowu",
+      "english": "",
+      "start": 18.27,
+      "end": 23.56,
+      "cer": 0.3793,
+      "emitted_text": "a uta an anhsinhti tsahsulo hahsul'vka now",
+      "words": [
+        {
+          "word": "ansindi",
+          "start": 18.59,
+          "end": 20.16,
+          "confidence": 0.7788589800949449,
+          "flagged": false,
+          "syllabary_word": "ᎠᏂᏏᏂᏗ"
+        },
+        {
+          "word": "tsasulo",
+          "start": 21.13,
+          "end": 21.79,
+          "confidence": 0.9999633431434631,
+          "flagged": false,
+          "syllabary_word": "ᏣᏑᎶ"
+        },
+        {
+          "word": "hasulvvga",
+          "start": 22.22,
+          "end": 23.16,
+          "confidence": 0.996944135427475,
+          "flagged": false,
+          "syllabary_word": "ᎭᏑᎸᎥᎦ"
+        },
+        {
+          "word": "nowu",
+          "start": 23.34,
+          "end": 23.56,
+          "confidence": 0.9393471082051595,
+          "flagged": false,
+          "syllabary_word": "ᏃᏭ"
+        }
+      ]
+    }
+  ]
+}

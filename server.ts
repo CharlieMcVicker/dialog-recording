@@ -4,13 +4,34 @@ import cors from 'cors';
 import { exec } from 'child_process';
 import path from 'path';
 import fs from 'fs/promises';
-import { existsSync } from 'fs';
+import fsSync, { existsSync } from 'fs';
 
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Setup multer for file uploads
-const upload = multer({ dest: 'uploads/' });
+// Setup multer for file uploads with proper file extensions preserved
+const storage = multer.diskStorage({
+  destination: (_req, _file, cb) => {
+    if (!existsSync('uploads')) {
+      fsSync.mkdirSync('uploads', { recursive: true });
+    }
+    cb(null, 'uploads/');
+  },
+  filename: (_req, file, cb) => {
+    let ext = path.extname(file.originalname);
+    if (!ext) {
+      if (file.mimetype === 'audio/wav' || file.mimetype === 'audio/x-wav') ext = '.wav';
+      else if (file.mimetype === 'audio/mp3' || file.mimetype === 'audio/mpeg') ext = '.mp3';
+      else if (file.mimetype === 'audio/ogg') ext = '.ogg';
+      else if (file.mimetype === 'audio/flac') ext = '.flac';
+      else if (file.mimetype === 'application/json') ext = '.json';
+      else ext = '.wav';
+    }
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
+    cb(null, `${file.fieldname}-${uniqueSuffix}${ext}`);
+  }
+});
+const upload = multer({ storage });
 
 app.use(cors());
 app.use(express.json());
@@ -49,11 +70,24 @@ app.post('/api/align', upload.fields([
       return res.status(400).json({ error: 'Missing audio file' });
     }
 
+    // Ensure audio file on disk strictly has a valid audio extension (.wav, .mp3, etc.)
+    let finalAudioPath = audioFile.path;
+    const hasValidExt = /\.(wav|mp3|ogg|flac|m4a|aac|webm)$/i.test(finalAudioPath);
+    if (!hasValidExt) {
+      let ext = path.extname(audioFile.originalname);
+      if (!ext || !/\.(wav|mp3|ogg|flac|m4a|aac|webm)$/i.test(ext)) {
+        ext = '.wav';
+      }
+      const targetPath = `${audioFile.path}${ext}`;
+      await fs.rename(audioFile.path, targetPath);
+      finalAudioPath = targetPath;
+    }
+
     const outputDir = `temp/out_${Date.now()}`;
     await fs.mkdir(outputDir, { recursive: true });
 
     // Execute align-cherokee CLI command
-    const cmd = `align-cherokee --audio ${audioFile.path} --chunk-list ${chunkListPath} --output-dir ${outputDir} --export-praat`;
+    const cmd = `align-cherokee --audio ${finalAudioPath} --chunk-list ${chunkListPath} --output-dir ${outputDir} --export-praat`;
     
     exec(cmd, async (error, stdout, stderr) => {
       if (error) {
