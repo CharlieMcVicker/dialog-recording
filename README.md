@@ -6,6 +6,17 @@ This tool parses incoming lesson JSON files, extracts embedded conversation step
 
 > **Note for Developers:** This specification outlines the workspace flow, JSON translation layers, and backend execution using the `align-cherokee` CLI.
 
+## Demo
+
+
+
+https://github.com/user-attachments/assets/628c7c80-64af-454b-b5ce-7314fe7abfb4
+
+> A user uploads a lesson JSON, records dialog, and aligns it. The user then shows the karaoke follow along modes, as well as the words that were not automatically extracted, shown with Xs at the bottom
+
+
+
+
 ---
 
 ## Workspace Architecture
