@@ -1,0 +1,11 @@
+{
+  "name": "dialog-recording",
+  "version": "1.0.0",
+  "description": "Record dialogs via web browser and have them autoaligned and terms extracted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charlie McVicker",
+  "license": "MIT"
+}

@@ -1,0 +1,851 @@
+{
+  "id": "b4352bc6-0437-402a-bedc-c5cf30ee4112",
+  "title": "How do you say...",
+  "description": "Learn some phrases for asking how to say things in Cherokee.",
+  "lesson_json": {
+    "id": "b4352bc6-0437-402a-bedc-c5cf30ee4112",
+    "level": 1,
+    "title": "How do you say...",
+    "vocab": [
+      {
+        "id": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+        "type": "sentence",
+        "origin": "local",
+        "english": "I am hungry",
+        "subtype": null,
+        "cherokee": "ᎠᎩᏲᏏ",
+        "phonetic": "a-gi-yo-si",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+        "type": "word",
+        "origin": "local",
+        "english": "Cherokee",
+        "subtype": null,
+        "cherokee": "ᏣᎳᎩ",
+        "phonetic": "tsa-la-gi",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+        "type": "word",
+        "origin": "local",
+        "english": "using",
+        "subtype": null,
+        "cherokee": "ᎬᏗ",
+        "phonetic": "gvh-di",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
+        "type": "word",
+        "origin": "local",
+        "english": "using Cherokee / in Cherokee",
+        "subtype": null,
+        "cherokee": "ᏣᎳᎩ ᎬᏗ",
+        "phonetic": "tsa-la-gi gvh-di",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "e733a0cb-32d4-4431-b39e-66cd508d7451",
+        "type": "word",
+        "origin": "local",
+        "english": "How can one say \"I am hungry?\"",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
+        "phonetic": "do yv-da \"I am hungry?\"",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
+        "type": "word",
+        "origin": "local",
+        "english": "How can one say \"I am hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"I am hungry\"  tsa-la-gi gvh-di?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+        "type": "sentence",
+        "origin": "local",
+        "english": "How do you say \"I am hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+        "type": "sentence",
+        "origin": "local",
+        "english": "How do you say \"You are hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+        "type": "sentence",
+        "origin": "local",
+        "english": "You are hungry",
+        "subtype": null,
+        "cherokee": "ᏣᏲᏏ",
+        "phonetic": "tsa-yo-si",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      }
+    ],
+    "modules": [
+      {
+        "id": "e0387fc9-97a4-42ab-8d51-fb949f4a9d5d",
+        "data": {
+          "body": "This lesson will focus on teaching you how to ask for language in language. Look at the sample question you will learn how to ask, then use the matching modules to learn the words in the question.",
+          "title": "Lesson focus"
+        },
+        "type": "context"
+      },
+      {
+        "id": "bb63948f-a84b-4f02-bc87-e8744ab1940f",
+        "data": {
+          "steps": [
+            {
+              "id": "88f32118-3abc-4b22-a468-5d3394f07643",
+              "mode": "dialogue",
+              "prompt": {
+                "english": "How do you say \"I am hungry\" in Cherokee?",
+                "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+                "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
+              },
+              "speaker": "npc",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [],
+                "phonetic": []
+              }
+            },
+            {
+              "id": "ede2d4ad-fa07-4c14-a78c-29fa67a935a0",
+              "mode": "dialogue",
+              "prompt": {
+                "english": "I am hungry",
+                "cherokee": "ᎠᎩᏲᏏ",
+                "phonetic": "a-gi-yo-si"
+              },
+              "speaker": "user",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [],
+                "phonetic": []
+              }
+            }
+          ],
+          "config": {
+            "visibleFields": [
+              "cherokee",
+              "phonetic",
+              "english"
+            ],
+            "showPhoneticWithCherokeeAnswers": true
+          },
+          "globalDistractors": [],
+          "globalBankDistractorIds": []
+        },
+        "type": "conversation"
+      },
+      {
+        "id": "e6047092-21a2-4766-9342-2690f3c55ad0",
+        "data": {
+          "items": [
+            {
+              "id": "18c139be-7b85-4651-aff5-9bf472a9bbd9",
+              "bankId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+              "english": "Cherokee",
+              "cherokee": "ᏣᎳᎩ",
+              "phonetic": "tsa-la-gi",
+              "languageItemId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7"
+            },
+            {
+              "id": "c40ec146-7cae-410e-bc1a-5a5b16aff362",
+              "bankId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+              "english": "using",
+              "cherokee": "ᎬᏗ",
+              "phonetic": "gvh-di",
+              "languageItemId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15"
+            },
+            {
+              "id": "9832b7a7-e47e-4acd-b585-4eeab61d02e3",
+              "bankId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
+              "english": "using Cherokee / in Cherokee",
+              "cherokee": "ᏣᎳᎩ ᎬᏗ",
+              "phonetic": "tsa-la-gi gvh-di",
+              "languageItemId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be"
+            }
+          ],
+          "config": {
+            "backFields": [
+              "english"
+            ],
+            "frontFields": [
+              "cherokee"
+            ]
+          }
+        },
+        "type": "match"
+      },
+      {
+        "id": "2696fb9b-2faa-47a6-aba4-0432b9081f1b",
+        "data": {
+          "items": [
+            {
+              "id": "14f17a9b-ec8d-453b-b11b-2394f24a89a9",
+              "bankId": "e733a0cb-32d4-4431-b39e-66cd508d7451",
+              "english": "How can one say \"I am hungry?\"",
+              "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
+              "phonetic": "do yv-da \"I am hungry?\"",
+              "languageItemId": "e733a0cb-32d4-4431-b39e-66cd508d7451"
+            },
+            {
+              "id": "10ca9384-4825-4160-9103-9d42b3254b80",
+              "bankId": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
+              "english": "How can one say I am hungry\" in Cherokee?",
+              "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+              "phonetic": "do yv-da I am hungry\"  tsa-la-gi gvh-di?",
+              "languageItemId": "f4be219e-91ca-41a8-9520-fb57d6dd494f"
+            }
+          ],
+          "config": {
+            "backFields": [
+              "english"
+            ],
+            "frontFields": [
+              "cherokee"
+            ]
+          }
+        },
+        "type": "match"
+      },
+      {
+        "id": "3cdea012-012c-4139-8007-4ddd13edf5f5",
+        "data": {
+          "steps": [
+            {
+              "id": "72f680be-73c7-4a70-ab3d-e4a091330f1e",
+              "mode": "question",
+              "prompt": {
+                "english": "How do you say \"I am hungry\" in Cherokee?",
+                "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+                "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
+              },
+              "speaker": "npc",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [
+                  0,
+                  1
+                ],
+                "phonetic": [
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "b152e9df-2dbf-4a22-bdae-4cc9dbaed1e9",
+              "mode": "dialogue",
+              "prompt": {
+                "english": "I am hungry",
+                "cherokee": "ᎠᎩᏲᏏ",
+                "phonetic": "a-gi-yo-si"
+              },
+              "speaker": "user",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [],
+                "phonetic": []
+              }
+            },
+            {
+              "id": "50712d58-84e7-4cc7-abaa-6077e58e93c8",
+              "mode": "question",
+              "prompt": {
+                "english": "How do you say \"You are hungry\" in Cherokee?",
+                "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
+                "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?"
+              },
+              "speaker": "npc",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [
+                  5,
+                  6
+                ],
+                "phonetic": [
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "id": "aa84b91e-9e7a-459e-96cb-cc12d8e0fdb7",
+              "mode": "dialogue",
+              "prompt": {
+                "english": "You are hungry",
+                "cherokee": "ᏣᏲᏏ",
+                "phonetic": "tsa-yo-si"
+              },
+              "speaker": "user",
+              "answerField": "cherokee",
+              "distractors": [],
+              "sentenceBankId": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+              "bankDistractorIds": [],
+              "maskedWordIndicesByField": {
+                "english": [],
+                "cherokee": [],
+                "phonetic": []
+              }
+            }
+          ],
+          "config": {
+            "visibleFields": [
+              "cherokee",
+              "phonetic",
+              "english"
+            ],
+            "showPhoneticWithCherokeeAnswers": true
+          },
+          "globalDistractors": [],
+          "globalBankDistractorIds": []
+        },
+        "type": "conversation"
+      }
+    ],
+    "description": "Learn some phrases for asking how to say things in Cherokee.",
+    "languageItems": [
+      {
+        "id": "87c1da23-f3ad-4c0e-bd50-6c3eeaf8b4fb",
+        "type": "sentence",
+        "origin": "local",
+        "english": "How do you say \"I am hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": false
+      },
+      {
+        "id": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+        "type": "sentence",
+        "origin": "local",
+        "english": "I am hungry",
+        "subtype": null,
+        "cherokee": "ᎠᎩᏲᏏ",
+        "phonetic": "a-gi-yo-si",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+        "type": "word",
+        "origin": "local",
+        "english": "Cherokee",
+        "subtype": null,
+        "cherokee": "ᏣᎳᎩ",
+        "phonetic": "tsa-la-gi",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+        "type": "word",
+        "origin": "local",
+        "english": "using",
+        "subtype": null,
+        "cherokee": "ᎬᏗ",
+        "phonetic": "gvh-di",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
+        "type": "word",
+        "origin": "local",
+        "english": "using Cherokee / in Cherokee",
+        "subtype": null,
+        "cherokee": "ᏣᎳᎩ ᎬᏗ",
+        "phonetic": "tsa-la-gi gvh-di",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "e733a0cb-32d4-4431-b39e-66cd508d7451",
+        "type": "word",
+        "origin": "local",
+        "english": "How can one say \"I am hungry?\"",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
+        "phonetic": "do yv-da \"I am hungry?\"",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
+        "type": "word",
+        "origin": "local",
+        "english": "How can one say \"I am hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"I am hungry\"  tsa-la-gi gvh-di?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+        "type": "sentence",
+        "origin": "local",
+        "english": "How do you say \"I am hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+        "type": "sentence",
+        "origin": "local",
+        "english": "How do you say \"You are hungry\" in Cherokee?",
+        "subtype": null,
+        "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
+        "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      },
+      {
+        "id": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+        "type": "sentence",
+        "origin": "local",
+        "english": "You are hungry",
+        "subtype": null,
+        "cherokee": "ᏣᏲᏏ",
+        "phonetic": "tsa-yo-si",
+        "sourceGlobalItemId": null,
+        "includeInLanguageBank": true
+      }
+    ],
+    "schemaVersion": 2,
+    "learningTargets": [],
+    "estimatedMinutes": 3,
+    "languageUseAreaId": "54880ed3-670d-44ca-b287-0c8de276903f"
+  },
+  "created_by": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
+  "created_at": "2026-07-24T14:30:32.117873+00:00",
+  "updated_at": "2026-07-24T14:30:32.117873+00:00",
+  "is_published": false,
+  "published_at": null,
+  "status": "draft",
+  "assigned_to": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
+  "updated_by": "0b8e0448-2b5a-4ce6-91cb-91629e6d401f",
+  "editing_by": null,
+  "editing_at": null,
+  "level": 1,
+  "review_note": null,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "language_use_area_id": "54880ed3-670d-44ca-b287-0c8de276903f",
+  "estimated_minutes": 3,
+  "curriculum_order": 0,
+  "version": 12,
+  "lesson_set_id": null,
+  "lesson_set_order": 0,
+  "editing_profile": null,
+  "modules": [
+    {
+      "id": "e0387fc9-97a4-42ab-8d51-fb949f4a9d5d",
+      "data": {
+        "body": "This lesson will focus on teaching you how to ask for language in language. Look at the sample question you will learn how to ask, then use the matching modules to learn the words in the question.",
+        "title": "Lesson focus"
+      },
+      "type": "context"
+    },
+    {
+      "id": "bb63948f-a84b-4f02-bc87-e8744ab1940f",
+      "data": {
+        "steps": [
+          {
+            "id": "88f32118-3abc-4b22-a468-5d3394f07643",
+            "mode": "dialogue",
+            "prompt": {
+              "english": "How do you say \"I am hungry\" in Cherokee?",
+              "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+              "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
+            },
+            "speaker": "npc",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [],
+              "phonetic": []
+            }
+          },
+          {
+            "id": "ede2d4ad-fa07-4c14-a78c-29fa67a935a0",
+            "mode": "dialogue",
+            "prompt": {
+              "english": "I am hungry",
+              "cherokee": "ᎠᎩᏲᏏ",
+              "phonetic": "a-gi-yo-si"
+            },
+            "speaker": "user",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [],
+              "phonetic": []
+            }
+          }
+        ],
+        "config": {
+          "visibleFields": [
+            "cherokee",
+            "phonetic",
+            "english"
+          ],
+          "showPhoneticWithCherokeeAnswers": true
+        },
+        "globalDistractors": [],
+        "globalBankDistractorIds": []
+      },
+      "type": "conversation"
+    },
+    {
+      "id": "e6047092-21a2-4766-9342-2690f3c55ad0",
+      "data": {
+        "items": [
+          {
+            "id": "18c139be-7b85-4651-aff5-9bf472a9bbd9",
+            "bankId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+            "english": "Cherokee",
+            "cherokee": "ᏣᎳᎩ",
+            "phonetic": "tsa-la-gi",
+            "languageItemId": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7"
+          },
+          {
+            "id": "c40ec146-7cae-410e-bc1a-5a5b16aff362",
+            "bankId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+            "english": "using",
+            "cherokee": "ᎬᏗ",
+            "phonetic": "gvh-di",
+            "languageItemId": "8f1dc46e-61c5-4e34-9be8-792c16a07b15"
+          },
+          {
+            "id": "9832b7a7-e47e-4acd-b585-4eeab61d02e3",
+            "bankId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
+            "english": "using Cherokee / in Cherokee",
+            "cherokee": "ᏣᎳᎩ ᎬᏗ",
+            "phonetic": "tsa-la-gi gvh-di",
+            "languageItemId": "1d6d0938-f341-4abc-a714-ea2d7bcb14be"
+          }
+        ],
+        "config": {
+          "backFields": [
+            "english"
+          ],
+          "frontFields": [
+            "cherokee"
+          ]
+        }
+      },
+      "type": "match"
+    },
+    {
+      "id": "2696fb9b-2faa-47a6-aba4-0432b9081f1b",
+      "data": {
+        "items": [
+          {
+            "id": "14f17a9b-ec8d-453b-b11b-2394f24a89a9",
+            "bankId": "e733a0cb-32d4-4431-b39e-66cd508d7451",
+            "english": "How can one say \"I am hungry?\"",
+            "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
+            "phonetic": "do yv-da \"I am hungry?\"",
+            "languageItemId": "e733a0cb-32d4-4431-b39e-66cd508d7451"
+          },
+          {
+            "id": "10ca9384-4825-4160-9103-9d42b3254b80",
+            "bankId": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
+            "english": "How can one say I am hungry\" in Cherokee?",
+            "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+            "phonetic": "do yv-da I am hungry\"  tsa-la-gi gvh-di?",
+            "languageItemId": "f4be219e-91ca-41a8-9520-fb57d6dd494f"
+          }
+        ],
+        "config": {
+          "backFields": [
+            "english"
+          ],
+          "frontFields": [
+            "cherokee"
+          ]
+        }
+      },
+      "type": "match"
+    },
+    {
+      "id": "3cdea012-012c-4139-8007-4ddd13edf5f5",
+      "data": {
+        "steps": [
+          {
+            "id": "72f680be-73c7-4a70-ab3d-e4a091330f1e",
+            "mode": "question",
+            "prompt": {
+              "english": "How do you say \"I am hungry\" in Cherokee?",
+              "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+              "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?"
+            },
+            "speaker": "npc",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [
+                0,
+                1
+              ],
+              "phonetic": [
+                0,
+                1
+              ]
+            }
+          },
+          {
+            "id": "b152e9df-2dbf-4a22-bdae-4cc9dbaed1e9",
+            "mode": "dialogue",
+            "prompt": {
+              "english": "I am hungry",
+              "cherokee": "ᎠᎩᏲᏏ",
+              "phonetic": "a-gi-yo-si"
+            },
+            "speaker": "user",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [],
+              "phonetic": []
+            }
+          },
+          {
+            "id": "50712d58-84e7-4cc7-abaa-6077e58e93c8",
+            "mode": "question",
+            "prompt": {
+              "english": "How do you say \"You are hungry\" in Cherokee?",
+              "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
+              "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?"
+            },
+            "speaker": "npc",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [
+                5,
+                6
+              ],
+              "phonetic": [
+                5,
+                6
+              ]
+            }
+          },
+          {
+            "id": "aa84b91e-9e7a-459e-96cb-cc12d8e0fdb7",
+            "mode": "dialogue",
+            "prompt": {
+              "english": "You are hungry",
+              "cherokee": "ᏣᏲᏏ",
+              "phonetic": "tsa-yo-si"
+            },
+            "speaker": "user",
+            "answerField": "cherokee",
+            "distractors": [],
+            "sentenceBankId": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+            "bankDistractorIds": [],
+            "maskedWordIndicesByField": {
+              "english": [],
+              "cherokee": [],
+              "phonetic": []
+            }
+          }
+        ],
+        "config": {
+          "visibleFields": [
+            "cherokee",
+            "phonetic",
+            "english"
+          ],
+          "showPhoneticWithCherokeeAnswers": true
+        },
+        "globalDistractors": [],
+        "globalBankDistractorIds": []
+      },
+      "type": "conversation"
+    }
+  ],
+  "vocab": [
+    {
+      "id": "87c1da23-f3ad-4c0e-bd50-6c3eeaf8b4fb",
+      "type": "sentence",
+      "origin": "local",
+      "english": "How do you say \"I am hungry\" in Cherokee?",
+      "subtype": null,
+      "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "phonetic": "do yv-da \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": false
+    },
+    {
+      "id": "216f4ebc-b444-4481-aa7d-4ee98093d3cc",
+      "type": "sentence",
+      "origin": "local",
+      "english": "I am hungry",
+      "subtype": null,
+      "cherokee": "ᎠᎩᏲᏏ",
+      "phonetic": "a-gi-yo-si",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "83e71d4e-bf16-47a1-8cf4-f35c0ca14bc7",
+      "type": "word",
+      "origin": "local",
+      "english": "Cherokee",
+      "subtype": null,
+      "cherokee": "ᏣᎳᎩ",
+      "phonetic": "tsa-la-gi",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "8f1dc46e-61c5-4e34-9be8-792c16a07b15",
+      "type": "word",
+      "origin": "local",
+      "english": "using",
+      "subtype": null,
+      "cherokee": "ᎬᏗ",
+      "phonetic": "gvh-di",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "1d6d0938-f341-4abc-a714-ea2d7bcb14be",
+      "type": "word",
+      "origin": "local",
+      "english": "using Cherokee / in Cherokee",
+      "subtype": null,
+      "cherokee": "ᏣᎳᎩ ᎬᏗ",
+      "phonetic": "tsa-la-gi gvh-di",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "e733a0cb-32d4-4431-b39e-66cd508d7451",
+      "type": "word",
+      "origin": "local",
+      "english": "How can one say \"I am hungry?\"",
+      "subtype": null,
+      "cherokee": "Ꮩ ᏴᏓ \"I am hungry?\"",
+      "phonetic": "do yv-da \"I am hungry?\"",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "f4be219e-91ca-41a8-9520-fb57d6dd494f",
+      "type": "word",
+      "origin": "local",
+      "english": "How can one say \"I am hungry\" in Cherokee?",
+      "subtype": null,
+      "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "phonetic": "do yv-da \"I am hungry\"  tsa-la-gi gvh-di?",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "0409f2fb-019c-4145-a7dd-606596bd5a90",
+      "type": "sentence",
+      "origin": "local",
+      "english": "How do you say \"I am hungry\" in Cherokee?",
+      "subtype": null,
+      "cherokee": "Ꮩ ᏴᏓ \"I am hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "phonetic": "do yv-da \"I am hungry\" tsa-la-gi gvh-di?",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "39d2e4ac-8a5f-4068-95ca-d41ac1618d5e",
+      "type": "sentence",
+      "origin": "local",
+      "english": "How do you say \"You are hungry\" in Cherokee?",
+      "subtype": null,
+      "cherokee": "Ꮩ ᏴᏓ \"You are hungry\" ᏣᎳᎩ ᎬᏗ?",
+      "phonetic": "do yv-da \"You are hungry\" tsa-la-gi gvh-di?",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    },
+    {
+      "id": "d7e7e434-1b47-42f9-a60b-ba7d1f7d3f97",
+      "type": "sentence",
+      "origin": "local",
+      "english": "You are hungry",
+      "subtype": null,
+      "cherokee": "ᏣᏲᏏ",
+      "phonetic": "tsa-yo-si",
+      "sourceGlobalItemId": null,
+      "includeInLanguageBank": true
+    }
+  ],
+  "learningTargets": [],
+  "has_active_published_snapshot": false
+}
